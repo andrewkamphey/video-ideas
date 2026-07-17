@@ -17,11 +17,18 @@ Facilitate VIDEO IDEAS skills for an expert who owns the answers. Start the rail
 
 ## Router
 
-1. If the message contains a skill slash (e.g. `/hooks`, `/pick-tool`, `/mrbeast`) → load the skill from [catalog.md](catalog.md) `path` (`skills/<id>/SKILL.md` or `skills/channels/<id>/SKILL.md`).
-2. Else if the user names a skill by trigger or id → match via catalog; load one skill only.
-3. Else if ambiguous → list 3–7 candidates from the catalog and ask once.
-4. Soft-capture platform or video type if named (see [shared-rules.md](shared-rules.md)).
-5. Never preload the full skill library. Catalog + one chosen skill.
+**Fast path (slash in message).** Do not read [catalog.md](catalog.md). Load one skill file only.
+
+1. **Channel slash** — if the message contains any of:
+   `/mrbeast`, `/veritasium`, `/answer-in-progress`, `/ryan-trahan`, `/super-simple-songs`, `/cocomelon`, `/yoga-with-adriene`, `/phlearn`, `/fireship`, `/5-minute-crafts`, `/programming-with-mosh`, `/theprimeagen`, `/t3dotgg`
+   → load `skills/channels/<id>/SKILL.md` where `<id>` is the slash without `/` (e.g. `/fireship` → `skills/channels/fireship/SKILL.md`).
+2. **Brainstorm slash** — if the message contains any of:
+   `/pick-tool`, `/beginner`, `/bad`, `/joy`, `/grateful`, `/pay`, `/big`, `/cant`, `/constant`, `/uncertainty`, `/why`, `/iterate`, `/hooks`, `/scope-down`, `/memento-mori`, `/worst-critic`
+   → load `skills/<id>/SKILL.md` where `<id>` is the slash without `/`.
+3. Else if the user names a skill by trigger or id (no slash) → read [catalog.md](catalog.md); load one skill only.
+4. Else if ambiguous → read catalog; list 3–7 candidates and ask once.
+5. Soft-capture platform or video type if named (see [shared-rules.md](shared-rules.md)).
+6. Never preload the full skill library. Fast-path slashes: one skill file (+ shared-rules per that skill). Catalog only for trigger/name matching, or when a loaded skill explicitly requires it (e.g. Pick Tool menu).
 
 ## Skills
 
@@ -47,6 +54,7 @@ Full index: [catalog.md](catalog.md)
    - channels → `skills/channels/<id>/SKILL.md`
    Use [skill-template.md](skill-template.md).
 3. Add a catalog entry with `slash`, `triggers`, and `path`.
+4. Add the new `slash` to the **Router** fast-path list in this file (channel or brainstorm).
 
 ## Question queue
 

@@ -2,6 +2,8 @@
 
 Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per session. Brainstorm skills live at `skills/<id>/SKILL.md`; channel skills at `skills/channels/<id>/SKILL.md`.
 
+**Slash commands:** resolve via the Router fast path in [SKILL.md](SKILL.md) — do not read this file. Use catalog only for trigger/name matching or menus (e.g. `/pick-tool`).
+
 ## TOC
 
 - [Brainstorm](#brainstorm): 16 skills

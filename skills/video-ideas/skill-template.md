@@ -28,6 +28,7 @@ Before starting, read [shared-rules.md](../video-ideas/shared-rules.md) (channel
 - `name` = catalog `id` = kebab-case directory name.
 - Brainstorm skills get `slash: /<id>` in catalog (e.g. `/hooks`, `/scope-down`).
 - Channel skills keep creator slashes (`/mrbeast`, `/veritasium`, …).
+- New slash → add to the **Router** fast-path list in [SKILL.md](SKILL.md) and [catalog.md](catalog.md).
 - Target under 80 lines per skill file.
 - **Anti-patterns** required.
 - Do not duplicate [formats.md](formats.md). Link when relevant.
