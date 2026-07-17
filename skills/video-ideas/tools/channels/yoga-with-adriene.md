@@ -11,7 +11,7 @@ inputs: [expertise, topic]
 
 ## Ethos
 
-Gentle practice invite + timed beginner sessions. Titles name the body area or goal, the duration, and an inclusive entry point ("Complete Beginners," "Start Here"). Audience contract = "find what feels good" — no performance pressure, just show up for N minutes.
+Gentle practice invite + timed beginner sessions. Titles name the body area or goal, the duration, and an inclusive entry point ("Complete Beginners," "Start Here"). Audience contract = "find what feels good". No performance pressure, just show up for N minutes.
 
 ## Top titles
 

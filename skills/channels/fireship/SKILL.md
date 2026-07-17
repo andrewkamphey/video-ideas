@@ -1,7 +1,7 @@
 ---
 name: fireship
 description: >-
-  Compressed witty tech title patterns — fast hook, opinion, demo. Triggers: fireship, /fireship, 100 seconds, code report. Part of VIDEO IDEAS.
+  Compressed witty tech title patterns. Fast hook, opinion, demo. Triggers: fireship, /fireship, 100 seconds, code report. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 

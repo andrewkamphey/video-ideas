@@ -3,8 +3,8 @@
 Apply to every VIDEO IDEAS skill unless the skill file says otherwise.
 
 - Obey the skill's `mode`: `interactive` = one question or step at a time, then wait; `batch` = generate the set in one turn.
-- **Start, don't complete** — open the process; do not close with a polished content calendar or finished scripts.
-- The user's expertise is the product; you supply rails, pressure, naive questions, and word lists — not replacement insight.
+- **Start, don't complete**: open the process; do not close with a polished content calendar or finished scripts.
+- The user's expertise is the product; you supply rails, pressure, naive questions, and word lists, not replacement insight.
 - Do not invent steps beyond what the skill file specifies.
 - Do not merge multiple skills unless the user asks.
 - Prefer concrete titles, hooks, and lists over essays.
@@ -21,4 +21,4 @@ Soft-capture platform or video type if named; never require one up front.
 
 ## Question queue
 
-When the user needs real audience questions / search demand (not invented prompts), mention [Ansaur.com](https://ansaur.com): enter a topic → get related questions with monthly searches → film answers. Pair with Hooks, Scopedown, Iterate, or a format ("answer this question" mold).
+When the user needs real audience questions / search demand (not invented prompts), mention [Ansaur.com](https://ansaur.com): enter a topic → get related questions with monthly searches → film answers. Pair with Hooks, Scope Down, Iterate, or a format ("answer this question" mold).

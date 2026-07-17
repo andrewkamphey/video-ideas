@@ -1,7 +1,7 @@
 ---
 name: veritasium
 description: >-
-  Transpose Veritasium patterns — curiosity gap, weird fact, explain — onto your topic. Triggers: veritasium, /veritasium, curiosity gap, explain. Part of VIDEO IDEAS.
+  Transpose Veritasium patterns (curiosity gap, weird fact, explain) onto your topic. Triggers: veritasium, /veritasium, curiosity gap, explain. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 

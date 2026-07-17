@@ -1,7 +1,7 @@
 ---
 name: pay
 description: >-
-  Interactive countdown to 20 real money flows — what people actually pay you for, not aspirations. Triggers: pay, what people pay for, revenue, transactions, sales not marketing. Part of VIDEO IDEAS.
+  Interactive countdown to 20 real money flows. What people actually pay you for, not aspirations. Triggers: pay, what people pay for, revenue, transactions, sales not marketing. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -25,21 +25,21 @@ Current work / business / freelance / employment reality.
 
 ## Mode
 
-`interactive` — one turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod.
+`interactive`. One turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod.
 
 **Kickoff options** (not a separate finish path):
 
-- **You start** — user lists first (2–3 items, or a batch dump in one message)
-- **I start / starter list** — AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
-- **Batch kickoff** — number each dumped item, state each transaction, show `N/20`, then continue interactively. Merge into the running list.
+- **You start**: user lists first (2–3 items, or a batch dump in one message)
+- **I start / starter list**: AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
+- **Batch kickoff**: number each dumped item, state each transaction, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
 1. **Frame:** 20 real money flows. You count, state each transaction plainly, prod gently when they stall. No aspirations.
 2. **Context:** Current work / business / freelance / employment reality.
 3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
-4. **Kickoff** — per mode above. Number items, state each flow, show `N/20`.
-5. **Loop until 20** — each turn:
+4. **Kickoff**: per mode above. Number items, state each flow, show `N/20`.
+5. **Loop until 20**. Each turn:
    - Show full list + `N/20` (see **Tracker format**)
    - Ask for more; if thin, prod using the table below
 6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
@@ -47,19 +47,19 @@ Current work / business / freelance / employment reality.
 
 ### Prod prompts
 
-Push for specificity. Reject aspiration entries like "they should pay me for strategy" before counting them — only real transactions. Vary the angle — what you do, what they think they buy, what you sell, big vs small, observed vs experienced.
+Push for specificity. Reject aspiration entries like "they should pay me for strategy" before counting them. Only real transactions. Vary the angle: what you do, what they think they buy, what you sell, big vs small, observed vs experienced.
 
 | Count | Prod angle |
 |---|---|
-| 1–3 | What do people pay you for right now — concrete actions, not positioning? What did you actually do to earn the last payment? |
-| 3–6 | What are the big money flows — flagship offers, large engagements, main revenue lines? |
-| 6–9 | What do people *think* they pay you for — and what is the transaction actually? Name the gap. |
-| 9–12 | What small payments count — retainers, tips, micro-sales, passive income, things easy to forget? |
-| 12–15 | What do you sell in each path — time, creativity, experience, hours, energy? Which applies where? |
-| 15–17 | What revenue did you only understand after the fact — money you didn't realize was the real product until you looked at the books? |
-| 18–20 | What do people pay others for in your field that you don't get paid for — or what do you get paid for that surprised you when it started? |
+| 1–3 | What do people pay you for right now? Concrete actions, not positioning? What did you actually do to earn the last payment? |
+| 3–6 | What are the big money flows? Flagship offers, large engagements, main revenue lines? |
+| 6–9 | What do people *think* they pay you for? What is the transaction actually? Name the gap. |
+| 9–12 | What small payments count? Retainers, tips, micro-sales, passive income, things easy to forget? |
+| 12–15 | What do you sell in each path? Time, creativity, experience, hours, energy? Which applies where? |
+| 15–17 | What revenue did you only understand after the fact? Money you didn't realize was the real product until you looked at the books? |
+| 18–20 | What do people pay others for in your field that you don't get paid for? Or what do you get paid for that surprised you when it started? |
 
-Example lines: *"That's 7. Thirteen more. What's the biggest single thing people pay you for?"* · *"You listed client work — what about passive or recurring?"* · *"What do they think they're buying vs what actually moves money?"* · *"Smallest revenue stream you still count?"* · *"What did you do last week that someone paid for?"* · *"What do peers get paid for that you don't?"*
+Example lines: *"That's 7. Thirteen more. What's the biggest single thing people pay you for?"* · *"You listed client work. What about passive or recurring?"* · *"What do they think they're buying vs what actually moves money?"* · *"Smallest revenue stream you still count?"* · *"What did you do last week that someone paid for?"* · *"What do peers get paid for that you don't?"*
 
 ## Tracker format
 
@@ -71,7 +71,7 @@ Example lines: *"That's 7. Thirteen more. What's the biggest single thing people
 …
 7. …
 
-**13 to go.** What do people think they pay you for — and what is it really?
+**13 to go.** What do people think they pay you for? What is it really?
 ```
 
 ## Stop
@@ -89,7 +89,7 @@ Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Ke
 
 - Do not write aspiration, positioning, or "should pay me for"
 - Do not do brand marketing or ideal ICP wishes
-- Do not inflate — only real transactions / real revenue paths
-- Do not confuse with BIG (searchable domain pillars) — PAY is money that already moves
-- Do not fill the list for the user — prod, don't invent their revenue (starter lists = prompts/stems only)
+- Do not inflate. Only real transactions / real revenue paths
+- Do not confuse with BIG (searchable domain pillars). PAY is money that already moves
+- Do not fill the list for the user. Prod, don't invent their revenue (starter lists = prompts/stems only)
 - Do not stop at 5–8 items or accept vague entries without pushing for specifics

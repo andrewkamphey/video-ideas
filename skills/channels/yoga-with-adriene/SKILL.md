@@ -1,7 +1,7 @@
 ---
 name: yoga-with-adriene
 description: >-
-  Gentle timed-practice title patterns — beginner-friendly, body-specific. Triggers: yoga with adriene, /yoga-with-adriene, find what feels good. Part of VIDEO IDEAS.
+  Gentle timed-practice title patterns. Beginner-friendly, body-specific. Triggers: yoga with adriene, /yoga-with-adriene, find what feels good. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Gentle practice invite + timed beginner sessions. Titles name the body area or goal, the duration, and an inclusive entry point ("Complete Beginners," "Start Here"). Audience contract = "find what feels good" — no performance pressure, just show up for N minutes.
+Gentle practice invite + timed beginner sessions. Titles name the body area or goal, the duration, and an inclusive entry point ("Complete Beginners," "Start Here"). Audience contract = "find what feels good". No performance pressure, just show up for N minutes.
 
 ## Top titles
 

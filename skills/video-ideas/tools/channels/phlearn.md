@@ -11,7 +11,7 @@ inputs: [expertise, topic]
 
 ## Ethos
 
-Clear tool-and-technique how-tos with before/after skill payoff. Titles lead with "How to" + one specific technique or concept. Audience contract = learn one Photoshop (or craft) move you can use immediately — no fluff, visible result.
+Clear tool-and-technique how-tos with before/after skill payoff. Titles lead with "How to" + one specific technique or concept. Audience contract = learn one Photoshop (or craft) move you can use immediately. No fluff, visible result.
 
 ## Top titles
 

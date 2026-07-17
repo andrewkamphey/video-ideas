@@ -1,16 +1,16 @@
 ---
-id: scopedown
-name: Scopedown
+id: scope-down
+name: Scope Down
 category: brainstorm
 mode: batch
 inputs: [title]
 ---
 
-# Scopedown
+# Scope Down
 
 ## Purpose
 
-Take a process or big idea and split it into one title/idea per step. Resist the full-outline mega-video — each step should be filmable alone or assemblable later.
+Take a process or big idea and split it into one title/idea per step. Resist the full-outline mega-video. Each step should be filmable alone or assemblable later.
 
 ## Inputs
 
@@ -18,7 +18,7 @@ One title, idea, or process the user wants to break apart.
 
 ## Mode
 
-`batch` — one title per step in one pass.
+`batch`. One title per step in one pass.
 
 ## Steps
 
@@ -37,6 +37,6 @@ Numbered list: step → filmable title/idea. Parts work alone or assemble later.
 
 ## Anti-patterns
 
-- Do not produce one video that covers all steps — resist the full-outline mega-video
+- Do not produce one video that covers all steps. Resist the full-outline mega-video
 - Do not write scripts or full outlines per step
-- Do not merge steps to "keep it simple" — the point is scopedown
+- Do not merge steps to "keep it simple". The point is scope-down

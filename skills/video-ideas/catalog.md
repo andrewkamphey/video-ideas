@@ -4,8 +4,8 @@ Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per se
 
 ## TOC
 
-- [Brainstorm](#brainstorm) — 16 skills
-- [Channels](#channels) — 12 skills (slash commands)
+- [Brainstorm](#brainstorm): 16 skills
+- [Channels](#channels): 12 skills (slash commands)
 
 ---
 
@@ -21,7 +21,7 @@ inputs: [feeling, goal]
 platforms: [any]
 triggers: [pick tool, /pick-tool, choose skill, which tool, menu]
 path: ../pick-tool/SKILL.md
-summary: Ask how you feel or what you want — suggest skills, pick one, run it.
+summary: Ask how you feel or what you want. Suggest skills, pick one, run it.
 ```
 
 ```yaml
@@ -47,7 +47,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [bad, radical acceptance, list the bad, complaints]
 path: ../bad/SKILL.md
-summary: List bad things bluntly — acknowledgment, not obligatory triumph arcs.
+summary: List bad things bluntly. Acknowledgment, not obligatory triumph arcs.
 ```
 
 ```yaml
@@ -60,7 +60,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [joy, joyful, over excited, write and move on]
 path: ../joy/SKILL.md
-summary: Interactive countdown to 20 joys — write it down and move on; don't marinate.
+summary: Interactive countdown to 20 joys. Write it down and move on; don't marinate.
 ```
 
 ```yaml
@@ -73,7 +73,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [grateful, gratitude, who helped, past self]
 path: ../grateful/SKILL.md
-summary: Interactive countdown to 20 grateful moments — who, what, why, when; past-self and near-misses.
+summary: Interactive countdown to 20 grateful moments. Who, what, why, when; past-self and near-misses.
 ```
 
 ```yaml
@@ -86,7 +86,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [pay, what people pay for, revenue, transactions, sales not marketing]
 path: ../pay/SKILL.md
-summary: Interactive countdown to 20 real money flows — what people actually pay you for, not aspirations.
+summary: Interactive countdown to 20 real money flows. What people actually pay you for, not aspirations.
 ```
 
 ```yaml
@@ -99,7 +99,7 @@ inputs: [topic]
 platforms: [any]
 triggers: [big, big ideas, pillars, searchable, domain map]
 path: ../big/SKILL.md
-summary: Dump 1–2 word searchable pillars for a topic or expertise world — not titles.
+summary: Dump 1–2 word searchable pillars for a topic or expertise world, not titles.
 ```
 
 ```yaml
@@ -112,7 +112,7 @@ inputs: [expertise]
 platforms: [any]
 triggers: [cant, can't, cannot, myths, limits, impossibilities]
 path: ../cant/SKILL.md
-summary: Interactive countdown to 20 cannots and domain myths — edges of what you can and can't do.
+summary: Interactive countdown to 20 cannots and domain myths. Edges of what you can and can't do.
 ```
 
 ```yaml
@@ -125,7 +125,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [constant, ongoing work, invisible load, still work]
 path: ../constant/SKILL.md
-summary: Interactive countdown to 20 constants — recurring labor outsiders assume is done.
+summary: Interactive countdown to 20 constants. Recurring labor outsiders assume is done.
 ```
 
 ```yaml
@@ -138,7 +138,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [uncertainty, uncertain, false certainty, unknown unknowns]
 path: ../uncertainty/SKILL.md
-summary: Interactive countdown to 20 uncertainties — what stays unresolved and what people wrongly treat as settled.
+summary: Interactive countdown to 20 uncertainties. What stays unresolved and what people wrongly treat as settled.
 ```
 
 ```yaml
@@ -164,7 +164,7 @@ inputs: [title]
 platforms: [any]
 triggers: [iterate, thesaurus, word swap, title variants]
 path: ../iterate/SKILL.md
-summary: One title or topic — riff a single word slot with synonyms, negatives, and wild swaps.
+summary: One title or topic. Riff a single word slot with synonyms, negatives, and wild swaps.
 ```
 
 ```yaml
@@ -177,20 +177,20 @@ inputs: [title]
 platforms: [any]
 triggers: [hooks, hook variants, openings]
 path: ../hooks/SKILL.md
-summary: Same one video — many different hooks only.
+summary: Same one video. Many different hooks only.
 ```
 
 ```yaml
-id: scopedown
-name: Scopedown
+id: scope-down
+name: Scope Down
 category: brainstorm
 mode: batch
-slash: /scopedown
+slash: /scope-down
 inputs: [title]
 platforms: [any]
-triggers: [scopedown, scope down, process steps, filmable parts]
-path: ../scopedown/SKILL.md
-summary: One title or idea per process step — resist the full-outline mega-video.
+triggers: [scope-down, scope down, process steps, filmable parts]
+path: ../scope-down/SKILL.md
+summary: One title or idea per process step. Resist the full-outline mega-video.
 ```
 
 ```yaml
@@ -203,7 +203,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [memento mori, deathbed, regret, last thing unsaid]
 path: ../memento-mori/SKILL.md
-summary: Deathbed regret chain — map each truth to a video idea you'd finally say.
+summary: Deathbed regret chain. Map each truth to a video idea you'd finally say.
 ```
 
 ```yaml
@@ -216,7 +216,7 @@ inputs: [concept]
 platforms: [any]
 triggers: [worst critic, part x, stutz, prove it, harsh criticism]
 path: ../worst-critic/SKILL.md
-summary: Face the harshest criticism — then make proof-oriented video ideas, not reassurance.
+summary: Face the harshest criticism. Then make proof-oriented video ideas, not reassurance.
 ```
 
 ---
@@ -235,7 +235,7 @@ inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [mrbeast, /mrbeast, beast, stakes, last to leave]
 path: ../channels/mrbeast/SKILL.md
-summary: Transpose Beast title grammar — stakes, money, scale — onto your expertise.
+summary: Transpose Beast title grammar (stakes, money, scale) onto your expertise.
 ```
 
 ```yaml
@@ -248,7 +248,7 @@ inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [veritasium, /veritasium, curiosity gap, explain]
 path: ../channels/veritasium/SKILL.md
-summary: Transpose Veritasium patterns — curiosity gap, weird fact, explain — onto your topic.
+summary: Transpose Veritasium patterns (curiosity gap, weird fact, explain) onto your topic.
 ```
 
 ```yaml
@@ -313,7 +313,7 @@ inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [yoga with adriene, /yoga-with-adriene, find what feels good]
 path: ../channels/yoga-with-adriene/SKILL.md
-summary: Gentle timed-practice title patterns — beginner-friendly, body-specific.
+summary: Gentle timed-practice title patterns. Beginner-friendly, body-specific.
 ```
 
 ```yaml
@@ -326,7 +326,7 @@ inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [phlearn, /phlearn, how to, technique]
 path: ../channels/phlearn/SKILL.md
-summary: Clear how-to technique titles — one skill, one video.
+summary: Clear how-to technique titles. One skill, one video.
 ```
 
 ```yaml
@@ -339,7 +339,7 @@ inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [fireship, /fireship, 100 seconds, code report]
 path: ../channels/fireship/SKILL.md
-summary: Compressed witty tech title patterns — fast hook, opinion, demo.
+summary: Compressed witty tech title patterns. Fast hook, opinion, demo.
 ```
 
 ```yaml

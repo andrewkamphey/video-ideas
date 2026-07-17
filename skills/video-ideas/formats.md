@@ -19,7 +19,7 @@ notes: One hack per video. Demo in-body. Title = promise of the hack.
 
 - After a brainstorm dump (BIG, PAY, Iterate, Hooks, etc.), optional: "Pick a format from `formats.md` and generate 10 fills."
 - User can say "run Iterate inside X Hack You Should Know."
-- Adding a format = new entry below — no SKILL rewrite.
+- Adding a format = new entry below. No SKILL rewrite.
 
 ---
 
@@ -55,7 +55,7 @@ name: Things I Wish I Knew
 skeleton: "Things I wish I knew before [doing X]"
 fill: one lesson per video in a domain
 platforms: [youtube, tiktok]
-notes: Not a dump list — one lesson, one video.
+notes: Not a dump list. One lesson, one video.
 ```
 
 ### Stop Doing X
@@ -77,7 +77,7 @@ name: X vs Y
 skeleton: "[X] vs [Y] Which should you use?"
 fill: one pairwise comparison
 platforms: [youtube, tiktok]
-notes: Pick a winner or "use when" — one pair only.
+notes: Pick a winner or "use when". One pair only.
 ```
 
 ### Only Use This If…
@@ -110,7 +110,7 @@ name: What I'd Do Differently
 skeleton: "What I'd do differently on [past project]"
 fill: one past project; one change
 platforms: [youtube]
-notes: One project, one lesson — not a career retrospective.
+notes: One project, one lesson, not a career retrospective.
 ```
 
 ### I Made X in Y
@@ -130,7 +130,7 @@ notes: Actually show the thing you made.
 id: green-red-flags
 name: Green → Red Flags
 skeleton: "Green flags / red flags for [X]"
-fill: one green, one red — or one flag per video
+fill: one green, one red, or one flag per video
 platforms: [youtube, tiktok]
 notes: Pick one density and keep it.
 ```
@@ -143,7 +143,7 @@ name: Tools I Actually Use
 skeleton: "The [tool] I actually use for [job]"
 fill: one tool per video
 platforms: [youtube, tiktok]
-notes: Not a kit dump — one tool, one reason.
+notes: Not a kit dump. One tool, one reason.
 ```
 
 ### Reply to Comments

@@ -1,7 +1,7 @@
 ---
 name: mrbeast
 description: >-
-  Transpose Beast title grammar — stakes, money, scale — onto your expertise. Triggers: mrbeast, /mrbeast, beast, stakes, last to leave. Part of VIDEO IDEAS.
+  Transpose Beast title grammar (stakes, money, scale) onto your expertise. Triggers: mrbeast, /mrbeast, beast, stakes, last to leave. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Stakes-first packaging machine: money on the line, last-to-leave endurance, scale as spectacle. Audience contract = "something outrageous is at risk and I'll watch until the outcome." Titles lead with the prize, the constraint, or the absurd survival premise — not the niche topic underneath.
+Stakes-first packaging machine: money on the line, last-to-leave endurance, scale as spectacle. Audience contract = "something outrageous is at risk and I'll watch until the outcome." Titles lead with the prize, the constraint, or the absurd survival premise, not the niche topic underneath.
 
 ## Top titles
 

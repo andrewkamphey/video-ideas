@@ -8,7 +8,7 @@ Short worked sessions showing facilitator tone. Read only when stuck on how a to
 
 **Input:** "Freelance bookkeeper, 8 years, QuickBooks + small biz taxes."
 
-**Facilitator:** "Dumping beginner questions — no answers from me unless you ask."
+**Facilitator:** "Dumping beginner questions. No answers from me unless you ask."
 
 **Output (fragment):**
 - What is bookkeeping vs accounting?
@@ -28,10 +28,10 @@ Short worked sessions showing facilitator tone. Read only when stuck on how a to
 **Facilitator:** "List the bad. Declare it bad. No triumph arc required."
 
 **Output (fragment):**
-- Client ghosted after 40 hours of work — bad
-- Invoiced on time, paid 90 days late — bad
-- Scope creep treated as "being helpful" — bad
-- Burned a friendship by mixing business — bad
+- Client ghosted after 40 hours of work. Bad.
+- Invoiced on time, paid 90 days late. Bad.
+- Scope creep treated as "being helpful". Bad.
+- Burned a friendship by mixing business. Bad.
 
 ---
 
@@ -42,10 +42,10 @@ Short worked sessions showing facilitator tone. Read only when stuck on how a to
 **Facilitator:** "Write it down, move on. Next cluster."
 
 **Output (fragment):**
-- Smell of rain on hot pavement — past joy, hits now
-- Launch day for a client's site — over-excited
-- First coffee after a hard week — joy RIGHT NOW
-- That one line from The Office — broke normal mental state
+- Smell of rain on hot pavement (past joy, hits now)
+- Launch day for a client's site (over-excited)
+- First coffee after a hard week (joy RIGHT NOW)
+- That one line from The Office (broke normal mental state)
 
 ---
 
@@ -53,7 +53,7 @@ Short worked sessions showing facilitator tone. Read only when stuck on how a to
 
 **Input:** "Solo dev, shipped first SaaS."
 
-**Facilitator:** "Who, what, why, when — specifics only."
+**Facilitator:** "Who, what, why, when. Specifics only.."
 
 **Output (fragment):**
 - Who: early beta user who sent Loom feedback weekly
@@ -97,7 +97,7 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 - Can't diagnose over video
 - Can't replace in-person assessment
 - Can't promise fix in one exercise
-- People think I can "fix" a torn ACL with stretches — can't
+- People think I can "fix" a torn ACL with stretches. Can't.
 
 ---
 
@@ -105,12 +105,12 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 
 **Input:** "Agency owner, 5 years in."
 
-**Facilitator:** "What never stops — even when outsiders think you're 'made it.'"
+**Facilitator:** "What never stops, even when outsiders think you're 'made it.'"
 
 **Output (fragment):**
 - Pipeline never feels full enough
 - Re-explaining scope on every new client
-- Cash flow timing — always watching
+- Cash flow timing. Always watching.
 - Hiring/firing decisions never feel done
 
 ---
@@ -137,7 +137,7 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 2. Why do they leave it? → User: "They don't know their market rate."
 3. Why don't they know? → … (continues to depth 5)
 
-**Output:** Sharpened spark — "The number you're afraid to Google is the number you should film about."
+**Output:** Sharpened spark: "The number you're afraid to Google is the number you should film about."
 
 ---
 
@@ -164,11 +164,11 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 - "I lost $12,000 before I learned this pricing rule."
 - "Your client isn't buying hours. Here's what they're buying."
 - "POV: you just sent a quote and immediately regretted it."
-- "Unpopular opinion: hourly billing is a scam — for you."
+- "Unpopular opinion: hourly billing is a scam (for you)."
 
 ---
 
-## Scopedown
+## Scope Down
 
 **Input:** "How to start a newsletter"
 
@@ -198,15 +198,15 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 
 **Input:** "YouTube educator, Excel + finance."
 
-**Facilitator:** "Part X — worst thing someone would say? Be specific."
+**Facilitator:** "Part X. Worst thing someone would say? Be specific."
 
 **User:** "You're just repackaging Google's documentation. Anyone could do this."
 
 **Facilitator:** "That might be right. What videos prove otherwise?"
 
 **Output:**
-- "I rebuilt a CFO's model from scratch — here's what docs don't teach"
-- "Google never explains *when* to use INDEX/MATCH — I will"
+- "I rebuilt a CFO's model from scratch. Here's what docs don't teach"
+- "Google never explains *when* to use INDEX/MATCH. I will."
 - "Watch me solve a real client's error live (no script)"
 
 ---
@@ -217,7 +217,7 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 
 **Output (fragment):**
 - Last To Leave This Spreadsheet Wins $500
-- $1 vs $1,000,000 Formula — Same Result?
+- $1 vs $1,000,000 Formula: Same Result?
 - I Spent 50 Hours Fixing One Broken VLOOKUP
 - Ages 1–100 Try to Build a Budget in 10 Minutes
 - Anything You Can Fit In This Cell I'll Pay For
@@ -241,4 +241,4 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 
 **Facilitator:** "Pick top 5 questions by search volume. Run Hooks on each."
 
-**Output:** Five hook variants per question — user films answers to real searched questions.
+**Output:** Five hook variants per question. User films answers to real searched questions.

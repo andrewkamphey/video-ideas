@@ -1,7 +1,7 @@
 ---
 name: phlearn
 description: >-
-  Clear how-to technique titles — one skill, one video. Triggers: phlearn, /phlearn, how to, technique. Part of VIDEO IDEAS.
+  Clear how-to technique titles. One skill, one video. Triggers: phlearn, /phlearn, how to, technique. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Clear tool-and-technique how-tos with before/after skill payoff. Titles lead with "How to" + one specific technique or concept. Audience contract = learn one Photoshop (or craft) move you can use immediately — no fluff, visible result.
+Clear tool-and-technique how-tos with before/after skill payoff. Titles lead with "How to" + one specific technique or concept. Audience contract = learn one Photoshop (or craft) move you can use immediately. No fluff, visible result.
 
 ## Top titles
 

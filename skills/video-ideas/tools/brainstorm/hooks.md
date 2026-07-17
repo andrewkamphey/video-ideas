@@ -10,7 +10,7 @@ inputs: [title]
 
 ## Purpose
 
-Same one video — many different hooks only. The video concept stays fixed; only the opening angle, framing, or first-line promise changes.
+Same one video. Many different hooks only. The video concept stays fixed; only the opening angle, framing, or first-line promise changes.
 
 ## Inputs
 
@@ -18,13 +18,13 @@ One video title or concept (the video stays the same).
 
 ## Mode
 
-`batch` — generate many hook variants in one pass.
+`batch`. Generate many hook variants in one pass.
 
 ## Steps
 
 1. Ask for one video title or concept. Confirm the video itself does not change.
 2. Generate many hook variants: different cold opens, promises, questions, stakes, POVs, contrarian frames.
-3. Present as a flat list of hooks only — not new titles, not new videos.
+3. Present as a flat list of hooks only, not new titles, not new videos.
 4. Stop. User picks which hook to film.
 
 ## Stop
@@ -37,6 +37,6 @@ Flat list of hook variants for the same single video.
 
 ## Anti-patterns
 
-- Do not change the underlying video concept — hooks only
+- Do not change the underlying video concept. Hooks only
 - Do not write full scripts or intros beyond the hook line
-- Do not merge with Iterate (word-slot swaps) — Hooks reframes the opening, not one word
+- Do not merge with Iterate (word-slot swaps). Hooks reframes the opening, not one word

@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Toddler-max clarity: routine songs, yes/no framing, body and daily-life loops with zero ambiguity. Titles are short noun phrases — the activity or object being taught. Audience contract = instant recognition, repetition, emotional safety for the smallest viewers (or total beginners).
+Toddler-max clarity: routine songs, yes/no framing, body and daily-life loops with zero ambiguity. Titles are short noun phrases: the activity or object being taught. Audience contract = instant recognition, repetition, emotional safety for the smallest viewers (or total beginners).
 
 ## Top titles
 

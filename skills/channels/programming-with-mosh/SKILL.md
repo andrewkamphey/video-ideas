@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Clean full-course beginner packaging: "[Skill] Full Course for Beginners" or "[Topic] Tutorial for Beginners." Audience contract = one authoritative on-ramp — structured, complete, trustworthy entry point to a skill.
+Clean full-course beginner packaging: "[Skill] Full Course for Beginners" or "[Topic] Tutorial for Beginners." Audience contract = one authoritative on-ramp: structured, complete, trustworthy entry point to a skill.
 
 ## Top titles
 

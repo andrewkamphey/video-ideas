@@ -28,21 +28,21 @@ Life / work / domain context. Optional time window.
 
 **Kickoff options** (not a separate finish path):
 
-- **You start** — user lists first (2–3 items, or a batch dump in one message)
-- **I start / starter list** — AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
-- **Batch kickoff** — number each dumped item, declare each bad, show `N/20`, then continue interactively. Merge into the running list.
+- **You start**: user lists first (2–3 items, or a batch dump in one message)
+- **I start / starter list**: AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
+- **Batch kickoff**: number each dumped item, declare each bad, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
 1. **Frame:** 20 bad things. You count, declare each bad, prod very quickly, shortly, when they stall. No redemption arc.
 2. **Context:** Life/work/domain + optional time window.
 3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
-4. **Kickoff** — per mode above. Number items, declare each bad, show `N/20`.
-5. **Loop until 20** — each turn:
+4. **Kickoff**: per mode above. Number items, declare each bad, show `N/20`.
+5. **Loop until 20**. Each turn:
    - Show full list + `N/20` (see **Tracker format**)
    - Ask for more; if thin, prod using the table below
 6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
-7. **Optional second pass** (only if user wants): ideas that help others sit with / name similar bad — not "how I beat it."
+7. **Optional second pass** (only if user wants): ideas that help others sit with / name similar bad, not "how I beat it."
 
 ### Prod prompts
 
@@ -58,7 +58,7 @@ Push for specificity. Reject vague entries, like "work sucks", before counting t
 | 15-17 | what are you ashamed about? What could you have done differently |
 | 18–20 | What do others spend time, money, energy on? that they shouldn't |
 
-Example lines: *"That's 8. Twelve more. What's physically annoying, not tragic?"* · *"You listed work — what about money?"* · *"Anything embarrassing you'd never say out loud?"* · *"Bad near you, even if it wasn't yours?"* · *"Smallest bad thing today?"*
+Example lines: *"That's 8. Twelve more. What's physically annoying, not tragic?"* · *"You listed work. What about money?"* · *"Anything embarrassing you'd never say out loud?"* · *"Bad near you, even if it wasn't yours?"* · *"Smallest bad thing today?"*
 
 ## Tracker format
 
@@ -82,14 +82,14 @@ Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Ke
 ## Output
 
 1. Numbered list of exactly 20 bad things (blunt, specific)
-2. Optional: ideas that help others sit with / name similar bad — not "how I beat it"
+2. Optional: ideas that help others sit with / name similar bad, not "how I beat it"
 
 ## Anti-patterns
 
 - Do not force persistence / overcome / silver-lining frames
 - Do not skip listing to jump to content ideas before bad is named
-- Do not minimize ("that's not so bad") — declare it bad
+- Do not minimize ("that's not so bad"). Declare it bad
 - Do not stop at 5–8 items or accept vague entries without pushing for specifics
-- Do not fill the list for the user — prod, don't invent their bad (starter lists = prompts/stems only)
+- Do not fill the list for the user. Prod, don't invent their bad (starter lists = prompts/stems only)
 - Do not treat petty/small bad as "not bad enough"
-- Do not conflate with Worst Critic (inner attack dossier) or CANT (domain impossibilities) — this is what hurt / is wrong / happened
+- Do not conflate with Worst Critic (inner attack dossier) or CANT (domain impossibilities). This is what hurt / is wrong / happened

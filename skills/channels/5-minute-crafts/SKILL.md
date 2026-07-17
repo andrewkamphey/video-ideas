@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../../video-ideas/shared-rules.md).
 
 ## Ethos
 
-Rapid numbered visual hacks: listicle energy, ALL CAPS promise, "hacks that will save you." Titles pack a number + superlative + life domain. Audience contract = fast visual payoff — many tips, zero preamble.
+Rapid numbered visual hacks: listicle energy, ALL CAPS promise, "hacks that will save you." Titles pack a number + superlative + life domain. Audience contract = fast visual payoff. Many tips, zero preamble.
 
 ## Top titles
 

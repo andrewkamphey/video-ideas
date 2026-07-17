@@ -1,6 +1,6 @@
 # VIDEO IDEAS
 
-Spark your brainstorming sessions. Skill bundle for video ideation. You bring the experience, expertise, and topics, AI can help you down different paths for your video topics/titles/ideas. Sometimes you wake up and need to push through a cold start. Sometimes you just want a helpful guide to get you from 1 idea to 20.
+Generate video ideas. Spark your brainstorming sessions. Skill bundle for video ideation. You bring the experience, expertise, and topics, AI can help you down different paths for your video topics/titles/ideas. Sometimes you wake up and need to push through a cold start. Sometimes you just want a helpful guide to get you from 1 idea to 20.
 
 **Brainstorm. Don't Finish.** Skills help the brainstorming process, can mimic what another channel might do in your niche, and help shape formats. AI does not deliver a finished content calendar nor a script. You can, if you want, prompt AI to write a script once you've come up with a title/topic/idea. But this skill is not for that.
 
@@ -14,7 +14,7 @@ npx skills add andrewkamphey/video-ideas --all
 
 Installs all 29 skills. The bundle can work together. Or be used on a one-off basis.
 
-Slash a skill: `/hooks`, `/scopedown`, `/iterate`, …
+Slash a skill: `/hooks`, `/scope-down`, `/iterate`, …
 Don't know where to start:  `/pick-tool`
 What would Channel do if they?: `/mrbeast`, `/veritasium`,…
 
@@ -54,7 +54,7 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 | `/why` | why | interactive | Asks why. Answer it. Asks why again. |
 | `/iterate` | iterate | batch | Change 1 thing ina title. Over and over and over again. |
 | `/hooks` | hooks | batch | Create many hooks for 1 video. |
-| `/scope-down` | scopedown | batch | Chop up an idea into smaller pieces |
+| `/scope-down` | scope-down | batch | Chop up an idea into smaller pieces |
 | `/memento-mori` | memento-mori | interactive | What's your biggest regret? Urgent to do now |
 | `/worst-critic` | worst-critic | interactive | What do they say about you? Write it down. Love it. |
 
@@ -75,4 +75,4 @@ When you need **real audience questions** with search demand, not invented AI pr
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).

@@ -18,7 +18,7 @@ One concept, topic, or rough video idea.
 
 ## Mode
 
-`interactive` — one why per turn; wait for the user's answer before the next layer.
+`interactive`. One why per turn; wait for the user's answer before the next layer.
 
 ## Steps
 
@@ -30,7 +30,7 @@ One concept, topic, or rough video idea.
 
 ## Stop
 
-Five whys reached, or user names the core. Offer one sharpened idea/title — user picks whether to develop.
+Five whys reached, or user names the core. Offer one sharpened idea/title. User picks whether to develop.
 
 ## Output
 
@@ -38,6 +38,6 @@ Sharpened idea or title spark from the why chain. Not a full script.
 
 ## Anti-patterns
 
-- Do not answer the whys for the user — they own the expertise
+- Do not answer the whys for the user. They own the expertise
 - Do not skip layers or batch all five whys in one turn
 - Do not expand into a full outline or content calendar

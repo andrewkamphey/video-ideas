@@ -11,7 +11,7 @@ inputs: [expertise, topic]
 
 ## Ethos
 
-Stakes-first packaging machine: money on the line, last-to-leave endurance, scale as spectacle. Audience contract = "something outrageous is at risk and I'll watch until the outcome." Titles lead with the prize, the constraint, or the absurd survival premise — not the niche topic underneath.
+Stakes-first packaging machine: money on the line, last-to-leave endurance, scale as spectacle. Audience contract = "something outrageous is at risk and I'll watch until the outcome." Titles lead with the prize, the constraint, or the absurd survival premise, not the niche topic underneath.
 
 ## Top titles
 
