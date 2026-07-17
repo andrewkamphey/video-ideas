@@ -1,7 +1,8 @@
 ---
 name: bad
 description: >-
-  List bad things bluntly — acknowledgment, not obligatory triumph arcs. Triggers: bad, radical acceptance, list the bad, complaints. Part of VIDEO IDEAS.
+  Interactive countdown to 20 blunt bad things. Acknowledgment, no overcoming.
+  Triggers: bad, radical acceptance, list the bad, complaints, 20 bad things, countdown. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -13,9 +14,9 @@ Before starting, read [shared-rules.md](../video-ideas/shared-rules.md).
 
 ## Purpose
 
-Partly **Radical Acceptance** (Stutz): list the bad — not tidy it into a redemption arc. List out all the bad stuff happening to you; list all the things that are bad; just list them; just write them down. Declare these are bad bad bad things.
+List the bad thing. Don't tidy it into a redemption arc. Each thing bad, happening to you: List it, write it down, declare it. That's all.
 
-They could be really bad, physically bad, just complaints; things you were actually affected by; or even bad things that happened around you. By processing this — by writing them down, by listing them — some ideas could come out of it. Not just how you persisted or overcame. Just stating the bad things clearly could help others.
+Bad can be physical pain, complaints, things that irk you, or bad things around you. Could be bad to others too. It can mean struggle, blocked progress, money costs (real or imagined), pride or shame, costs to/from others, taxes on time, or freedom taken (real or imagined). State clearly, not how you overcame it. This can help others immensely if they feel alone or ostracized due to a percieved negativity.
 
 ## Inputs
 
@@ -23,27 +24,72 @@ Life / work / domain context. Optional time window.
 
 ## Mode
 
-`batch` — dump the list first; optional light second pass for video angles that stay in acknowledgment (not obligatory triumph).
+`interactive` One turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod.
+
+**Kickoff options** (not a separate finish path):
+
+- **You start** — user lists first (2–3 items, or a batch dump in one message)
+- **I start / starter list** — AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
+- **Batch kickoff** — number each dumped item, declare each bad, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
-1. Ask for life / work / domain context (optional time window).
-2. Prompt: list all the bad stuff — really bad, physically bad, complaints, things that hit you, bad things that happened around you.
-3. Declare them bad. Keep listing until the user signals done or the dump feels complete.
-4. Optional second pass (only if user wants): ideas that help others sit with / name similar bad — not only "how I beat it."
+1. **Frame:** 20 bad things. You count, declare each bad, prod very quickly, shortly, when they stall. No redemption arc.
+2. **Context:** Life/work/domain + optional time window.
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff** — per mode above. Number items, declare each bad, show `N/20`.
+5. **Loop until 20** — each turn:
+   - Show full list + `N/20` (see **Tracker format**)
+   - Ask for more; if thin, prod using the table below
+6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
+7. **Optional second pass** (only if user wants): ideas that help others sit with / name similar bad — not "how I beat it."
+
+### Prod prompts
+
+Push for specificity. Reject vague entries, like "work sucks", before counting them.
+
+| Count | Prod angle |
+|---|---|
+| 1–3 |  What stops you, blocks you, gets in your way? It makes this difficult.  |
+| 3–6 | What's a petty thing that just plain sucks? Minor gripe. Some small irritation.|
+| 6-9 |what hurt when you started? What was fuzzy, or you didn't know?|
+| 9-12 | What do others complain about? What hurts them the most? |
+| 12–15 | What cost you money? What cost you more than it should have? |
+| 15-17 | what are you ashamed about? What could you have done differently |
+| 18–20 | What do others spend time, money, energy on? that they shouldn't |
+
+Example lines: *"That's 8. Twelve more. What's physically annoying, not tragic?"* · *"You listed work — what about money?"* · *"Anything embarrassing you'd never say out loud?"* · *"Bad near you, even if it wasn't yours?"* · *"Smallest bad thing today?"*
+
+## Tracker format
+
+```markdown
+## Bad list (7/20)
+
+1. …
+2. …
+…
+7. …
+
+**13 to go.** What's mildly bad you'd normally shrug off?
+```
 
 ## Stop
 
-Flat bad list is captured. User picks whether to map to video angles.
+20 items captured and echoed as a flat numbered list. User picks whether to map to video angles.
+
+Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Keep prodding past 5–8 comfortable items.
 
 ## Output
 
-1. Flat list of bad things (blunt, specific)
-2. Optional: ideas that help others sit with / name similar bad — not only "how I beat it"
+1. Numbered list of exactly 20 bad things (blunt, specific)
+2. Optional: ideas that help others sit with / name similar bad — not "how I beat it"
 
 ## Anti-patterns
 
-- Do not force a persistence / overcome / silver-lining frame
-- Do not skip listing to jump to "content ideas" before the bad is named
+- Do not force persistence / overcome / silver-lining frames
+- Do not skip listing to jump to content ideas before bad is named
 - Do not minimize ("that's not so bad") — declare it bad
+- Do not stop at 5–8 items or accept vague entries without pushing for specifics
+- Do not fill the list for the user — prod, don't invent their bad (starter lists = prompts/stems only)
+- Do not treat petty/small bad as "not bad enough"
 - Do not conflate with Worst Critic (inner attack dossier) or CANT (domain impossibilities) — this is what hurt / is wrong / happened
