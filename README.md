@@ -45,19 +45,19 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 | Slash | id | Mode | Summary |
 |-------|-----|------|---------|
 | `/pick-tool` | pick-tool | interactive | Ask how you feel. Suggests a skill |
-| `/beginner` | beginner | interactive | A beginner asks you questions. |
-| `/bad` | bad | batch | Catalog your challenges |
-| `/joy` | joy | batch | Take account of what brings you JOY |
-| `/grateful` | grateful | batch | Feel the gratefulness flow through you |
-| `/pay` | pay | batch | Why do people pay you?|
-| `/big` | big | batch | Zoom out. Big topics |
-| `/cant` | cant | batch | Things you can not do |
-| `/constant` | constant | batch | Work that never stops being work |
-| `/uncertainty` | uncertainty | batch | What stays unresolved, undecided |
-| `/why` | why | interactive | Asks why. Answer it. Asks why again. |
 | `/iterate` | iterate | batch | Change 1 thing ina title. Over and over and over again. |
 | `/hooks` | hooks | batch | Create many hooks for 1 video. |
+| `/beginner` | beginner | interactive | A beginner asks you questions. |
+| `/big` | big | batch | Zoom out. Big topics |
 | `/scope-down` | scope-down | batch | Chop up an idea into smaller pieces |
+| `/bad` | bad | interactive | Catalog your challenges |
+| `/joy` | joy | interactive | Take account of what brings you JOY |
+| `/grateful` | grateful | interactive | Feel the gratefulness flow through you |
+| `/uncertainty` | uncertainty | batch | What stays unresolved, undecided |
+| `/pay` | pay | batch | Why do people pay you?|
+| `/constant` | constant | interactive | Work that never stops being work |
+| `/why` | why | interactive | Asks why. Answer it. Asks why again. |
+| `/cant` | cant | interactive | Things you can not do |
 | `/memento-mori` | memento-mori | interactive | What's your biggest regret? Urgent to do now |
 | `/worst-critic` | worst-critic | interactive | What do they say about you? Write it down. Love it. |
 
