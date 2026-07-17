@@ -1,16 +1,33 @@
 # VIDEO IDEAS
 
-Personal-first skill for video ideation. AI opens the rails—you bring the expertise and finish the ideas.
+Skill for video ideation. AI opens the rails—you bring the expertise and finish the ideas.
 
 **Start, don't complete.** Tools facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
 
 ## Install
 
-Clone this repo and add `skills/video-ideas/` to your AI assistant:
+[![skills.sh](https://skills.sh/b/andrewkamphey/video-ideas)](https://skills.sh/andrewkamphey/video-ideas)
 
-- **Skills library** — if your tool supports project or personal skills, point it at this folder
+**Recommended** — install with the [skills CLI](https://skills.sh) (works with Cursor, Claude Code, Codex, and 70+ agents):
+
+```bash
+# Global install (available across all your projects)
+npx skills add andrewkamphey/video-ideas --skill video-ideas -g -y
+
+# Project install (committed with your repo)
+npx skills add andrewkamphey/video-ideas --skill video-ideas -y
+
+# Preview without installing
+npx skills add andrewkamphey/video-ideas --list
+```
+
+Update after changes: `npx skills update video-ideas`
+
+**Manual** — if you prefer not to use the CLI:
+
+- **Clone** — keep this repo in your workspace so the AI can read `catalog.md` and tool files on demand
+- **Skills library** — point your tool at `skills/video-ideas/`
 - **System prompt** — paste or attach `skills/video-ideas/SKILL.md` plus the files it references
-- **Project context** — keep the repo in your workspace so the AI can read `catalog.md` and tool files on demand
 
 ## Platforms (soft context)
 
