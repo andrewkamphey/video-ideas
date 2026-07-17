@@ -34,4 +34,4 @@ VIDEO IDEAS facilitates; Ansaur supplies demand-backed questions — not AI-inve
 
 ## Contributing
 
-When adding a from-source tool: copy [tool-template.md](../../tool-template.md) → `tools/from-source/<id>.md`, add catalog entry, optional example in [examples.md](../../examples.md).
+When adding a from-source tool: create `tools/from-source/<id>.md`, add catalog entry, optional example in [examples.md](../../examples.md).

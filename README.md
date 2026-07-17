@@ -12,9 +12,23 @@ Skill for video ideation. AI opens the rails, while you bring the expertise and 
 npx skills add andrewkamphey/video-ideas
 ```
 
-## Platforms/Format
+## Platforms & video types
 
-The tools will work generally across every video platform. There are times when a certain skill does specifically work better for a type of video or a platform. YouTube, YouTube Shorts, TikTok, X, Instagram, Facebook Reels, LinkedIn, Mastadon,Twitch, YouTube Live, Coursera, Udemy, shorts, long form, live, video courses.
+Tools work generally across every video platform. Mention platform or video type when it helps—the agent will tailor. Some tools fit certain platforms better (e.g. Hooks → short-form; Scopedown → long-form or course lessons).
+
+**Social & short-form:** YouTube, YouTube Shorts, TikTok, Instagram Reels, Instagram Stories, Facebook Reels, X, Threads, LinkedIn, Mastodon
+
+**Live & streaming:** Twitch, YouTube Live
+
+**Courses & paid content:** Coursera, Udemy, Skillshare, Teachable, Kajabi, Gumroad, Patreon, Substack
+
+**Podcasts & async video:** Spotify (video podcasts), Apple Podcasts, Discord
+
+**Video types:** shorts, long-form, live, screencast, podcasts, video courses, webinar, tutorial, product demo, talking head
+
+**Other Platforms:** Vimeo, Rumble, Dailymotion, Facebook Watch, Snapchat Spotlight, Bluesky, Reddit video, Kick, Loom, Wistia, Zoom recordings
+
+Repeatable **title molds** (not platforms): [`skills/video-ideas/formats.md`](skills/video-ideas/formats.md)
 
 ## Categories
 
@@ -60,10 +74,6 @@ Repeatable video molds (not announced series): [`skills/video-ideas/formats.md`]
 ## Question research
 
 When you need **real audience questions** with search demand—not invented AI prompts—use [Ansaur.com](https://ansaur.com). Enter a topic; get related Google questions with monthly search counts. Film answers. Pair with Hooks, Scopedown, Iterate, or a format mold.
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

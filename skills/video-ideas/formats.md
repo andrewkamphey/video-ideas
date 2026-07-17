@@ -2,13 +2,13 @@
 
 Repeatable video molds you run over and over. Same skeleton, new topic each upload.
 
-**Format ≠ series.** Do not announce "Season 1" or "this is my new series." You work the mold forever — one fill per video.
+**Format ≠ series.** Do not announce "Season 1" or "this is my new series." You work the mold forever.
 
 ## Entry shape
 
 ```yaml
-id: x-hack-you-should-know
-name: X Hack You Should Know
+id: x-hacks-you-should-know
+name: X Hacks You Should Know
 skeleton: "[Tool/Topic] hack you should know"
 fill: specific app, feature, or niche (Google Sheets, Photoshop, …)
 platforms: [youtube, tiktok, reels, shorts]
@@ -63,7 +63,7 @@ notes: Not a dump list — one lesson, one video.
 ```yaml
 id: stop-doing-x
 name: Stop Doing X
-skeleton: "Stop doing [bad habit] — do this instead"
+skeleton: "Stop doing [bad habit]. Do this instead"
 fill: one bad habit + replacement
 platforms: [youtube, tiktok, reels]
 notes: Name the habit bluntly; show the fix.
@@ -74,7 +74,7 @@ notes: Name the habit bluntly; show the fix.
 ```yaml
 id: x-vs-y
 name: X vs Y
-skeleton: "[X] vs [Y] — which should you use?"
+skeleton: "[X] vs [Y] Which should you use?"
 fill: one pairwise comparison
 platforms: [youtube, tiktok]
 notes: Pick a winner or "use when" — one pair only.
@@ -91,89 +91,12 @@ platforms: [youtube, tiktok]
 notes: The condition is the hook.
 ```
 
-### Day in the Life (One Job)
-
-```yaml
-id: day-in-the-life-one-job
-name: Day in the Life (One Job)
-skeleton: "Day in the life of a [role] — [one slice]"
-fill: same format, different role or day slice
-platforms: [youtube, tiktok]
-notes: Not vlog soup — one job, one angle.
-```
-
-### Get Ready With Me But…
-
-```yaml
-id: grwm-but
-name: Get Ready With Me But…
-skeleton: "Get ready with me while I [craft activity]"
-fill: GRWM skeleton applied to a craft (code, edit, sell)
-platforms: [youtube, tiktok, reels]
-notes: Talk-through while doing real work.
-```
-
-### POV:
-
-```yaml
-id: pov
-name: POV:
-skeleton: "POV: [one premise]"
-fill: one POV premise; stay in character
-platforms: [tiktok, reels, shorts]
-notes: Same setup grammar every time.
-```
-
-### The Part They Don't Tell You
-
-```yaml
-id: the-part-they-dont-tell-you
-name: The Part They Don't Tell You
-skeleton: "The part they don't tell you about [X]"
-fill: one hidden cost, step, or truth
-platforms: [youtube, tiktok]
-notes: One reveal per video.
-```
-
-### Watch Me ___ in X Minutes
-
-```yaml
-id: watch-me-in-x-minutes
-name: Watch Me ___ in X Minutes
-skeleton: "Watch me [task] in [N] minutes"
-fill: timed challenge; same clock, new task
-platforms: [youtube, tiktok, shorts]
-notes: The clock is part of the contract.
-```
-
-### Rate My ___
-
-```yaml
-id: rate-my
-name: Rate My ___
-skeleton: "Rate my [artifact]"
-fill: rate one submission (thumbnail, funnel, cold email)
-platforms: [youtube, tiktok]
-notes: One artifact, one rating pass.
-```
-
-### Roast My ___
-
-```yaml
-id: roast-my
-name: Roast My ___
-skeleton: "Roast my [artifact] (constructive)"
-fill: one submission or example
-platforms: [youtube, tiktok]
-notes: Constructive roast — teach through critique.
-```
-
-### $0 vs $100 vs $1000
+### FREE vs $10 vs $100
 
 ```yaml
 id: tiered-options
-name: $0 vs $100 vs $1000
-skeleton: "$0 vs $100 vs $1000 [outcome]"
+name: FREE vs $10 vs $100
+skeleton: "FREE vs $10 vs $100 [outcome]"
 fill: tiered options for the same outcome
 platforms: [youtube, tiktok]
 notes: Same outcome, three price points.
@@ -190,81 +113,15 @@ platforms: [youtube]
 notes: One project, one lesson — not a career retrospective.
 ```
 
-### Explain Like I'm 5
+### I Made X in Y
 
 ```yaml
-id: eli5
-name: Explain Like I'm 5
-skeleton: "[Hard concept] explained like you're 5"
-fill: one hard concept, ELI5 once
+id: I-made
+name: I made X in Y
+skeleton: "I made X in [topic/thing]"
+fill: one thing I made, that is simlar to another thing.
 platforms: [youtube, tiktok]
-notes: One concept per video.
-```
-
-### 3 Mistakes / 1 Fix
-
-```yaml
-id: mistakes-or-fix
-name: 3 Mistakes / 1 Fix
-skeleton: "3 mistakes people make with [X]" OR "The one fix for [X]"
-fill: tight mistake pack OR single-fix variant
-platforms: [youtube, tiktok]
-notes: Pick one rail and stick — don't mix both in one upload.
-```
-
-### Before → After
-
-```yaml
-id: before-after
-name: Before → After
-skeleton: "Before vs after [transformation]"
-fill: one transformation; show both poles
-platforms: [youtube, tiktok, reels]
-notes: Both poles visible in the video.
-```
-
-### Steal My ___
-
-```yaml
-id: steal-my
-name: Steal My ___
-skeleton: "Steal my [template/script/checklist]"
-fill: one template given away
-platforms: [youtube, tiktok]
-notes: Actually give the thing away.
-```
-
-### Unpopular Opinion
-
-```yaml
-id: unpopular-opinion
-name: Unpopular Opinion
-skeleton: "Unpopular opinion: [one claim]"
-fill: one claim; defend once
-platforms: [youtube, tiktok, x]
-notes: One claim — not a rant compilation.
-```
-
-### Myth vs Reality
-
-```yaml
-id: myth-vs-reality
-name: Myth vs Reality
-skeleton: "[Myth] vs reality"
-fill: one myth killed
-platforms: [youtube, tiktok]
-notes: One myth per video.
-```
-
-### Client Said / I Heard
-
-```yaml
-id: client-said-i-heard
-name: Client Said / I Heard
-skeleton: "Client said [X]. I heard [Y]."
-fill: recurring miscommunication in your field
-platforms: [youtube, tiktok]
-notes: Same two-column format every time.
+notes: Actually show the thing you made.
 ```
 
 ### Green → Red Flags
@@ -294,63 +151,8 @@ notes: Not a kit dump — one tool, one reason.
 ```yaml
 id: reply-to-comments
 name: Reply to Comments
-skeleton: "You asked: [comment] — here's the answer"
+skeleton: "You asked: [comment]"
 fill: one comment = one video
 platforms: [youtube, tiktok]
 notes: Quote the comment; answer fully.
-```
-
-### Duet / Stitch This
-
-```yaml
-id: duet-stitch
-name: Duet / Stitch This
-skeleton: "Stitching [source] — my take"
-fill: reaction format; same setup, new source
-platforms: [tiktok, reels, shorts]
-notes: React to one clip; add your expertise.
-```
-
-### Storytime But Make It Useful
-
-```yaml
-id: storytime-useful
-name: Storytime But Make It Useful
-skeleton: "[Story] — and here's the one takeaway"
-fill: one story → one takeaway only
-platforms: [youtube, tiktok]
-notes: Story serves the takeaway, not the other way around.
-```
-
-### Hot Take Cold Open
-
-```yaml
-id: hot-take-cold-open
-name: Hot Take Cold Open
-skeleton: "[Bold claim] — here's why"
-fill: cold open claim → short proof
-platforms: [youtube, tiktok, shorts]
-notes: Claim in the first three seconds.
-```
-
-### Silent Tutorial
-
-```yaml
-id: silent-tutorial
-name: Silent Tutorial
-skeleton: "[Task] — no talking, just doing"
-fill: no/low talk; text + hands; same edit grammar
-platforms: [youtube, tiktok, reels]
-notes: Fixed edit rhythm every upload.
-```
-
-### Voiceover + B-roll Formula
-
-```yaml
-id: vo-broll-formula
-name: Voiceover + B-roll Formula
-skeleton: "[Topic] — VO structure: hook → context → demo → close"
-fill: fixed VO structure; new topic under it
-platforms: [youtube, tiktok]
-notes: Same VO beats; swap the topic.
 ```

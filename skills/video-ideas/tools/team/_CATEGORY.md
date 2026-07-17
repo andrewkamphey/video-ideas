@@ -22,4 +22,4 @@ Multiplayer facilitation for workshops, co-hosts, and group brainstorms. **No im
 
 ## Contributing
 
-When adding a team tool: copy [tool-template.md](../../tool-template.md) → `tools/team/<id>.md`, add catalog entry, note multiplayer norms in **Mode**, optional example in [examples.md](../../examples.md).
+When adding a team tool: create `tools/team/<id>.md`, add catalog entry, note multiplayer norms in **Mode**, optional example in [examples.md](../../examples.md).

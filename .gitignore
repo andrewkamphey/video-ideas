@@ -8,3 +8,7 @@ Thumbs.db
 .env
 .env.*
 .cursor
+
+# Local authoring templates (not published)
+skills/video-ideas/tool-template.md
+skills/video-ideas/channel-template.md
