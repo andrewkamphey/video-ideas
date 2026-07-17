@@ -28,7 +28,7 @@ Facilitate VIDEO IDEAS skills for an expert who owns the answers. Start the rail
 Each rail is its own skill. Source tool files live at `tools/<category>/<id>.md` for editing.
 
 - **Brainstorm** → `skills/<id>/SKILL.md` (16 skills)
-- **Channels** → `skills/channels/<id>/SKILL.md` (12 skills)
+- **Channels** → `skills/channels/<id>/SKILL.md` (13 skills)
 
 Full index: [catalog.md](catalog.md)
 

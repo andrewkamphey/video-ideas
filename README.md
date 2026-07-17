@@ -12,7 +12,7 @@ Generate video ideas. Spark your brainstorming sessions. Skill bundle for video 
 npx skills add andrewkamphey/video-ideas --all
 ```
 
-Installs all 29 skills. The bundle can work together. Or be used on a one-off basis.
+Installs all 30 skills. The bundle can work together. Or be used on a one-off basis.
 
 Don't know where to start:  `/pick-tool`
 Play with words: `/hooks`, `/iterate`
@@ -63,7 +63,7 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 
 ## Channel skills
 
-`/mrbeast` `/veritasium` `/answer-in-progress` `/ryan-trahan` `/super-simple-songs` `/cocomelon` `/yoga-with-adriene` `/phlearn` `/fireship` `/5-minute-crafts` `/programming-with-mosh` `/theprimeagen`
+`/mrbeast` `/veritasium` `/answer-in-progress` `/ryan-trahan` `/super-simple-songs` `/cocomelon` `/yoga-with-adriene` `/phlearn` `/fireship` `/5-minute-crafts` `/programming-with-mosh` `/theprimeagen` `/t3dotgg`
 
 Pass your expertise or topic. Get title patterns in their formats. Not their niche copied.Find out what videos you would do if you knew what they knew. Or what videos would they make, if they were running your channel.
 

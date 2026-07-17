@@ -5,7 +5,7 @@ Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per se
 ## TOC
 
 - [Brainstorm](#brainstorm): 16 skills
-- [Channels](#channels): 12 skills (slash commands)
+- [Channels](#channels): 13 skills (slash commands)
 
 ---
 
@@ -379,4 +379,17 @@ platforms: [youtube]
 triggers: [theprimeagen, /theprimeagen, prime, hot take, live craft]
 path: ../channels/theprimeagen/SKILL.md
 summary: High-energy eng opinion + live craft title patterns for your domain.
+```
+
+```yaml
+id: t3dotgg
+name: Theo — t3.gg
+category: channels
+mode: batch
+slash: /t3dotgg
+inputs: [expertise, topic]
+platforms: [youtube]
+triggers: [t3dotgg, /t3dotgg, theo, t3 stack, hot take, ai workflow]
+path: ../channels/t3dotgg/SKILL.md
+summary: Opinionated full-stack + AI industry title patterns for your domain.
 ```
