@@ -14,9 +14,12 @@ npx skills add andrewkamphey/video-ideas --all
 
 Installs all 29 skills. The bundle can work together. Or be used on a one-off basis.
 
-Slash a skill: `/hooks`, `/scope-down`, `/iterate`, …
 Don't know where to start:  `/pick-tool`
-What would Channel do if they?: `/mrbeast`, `/veritasium`,…
+Play with words: `/hooks`, `/iterate`
+Change your mindset: `/beginner`,`/big`,`/scope-down`
+Dive into an emotional state: `/bad`,`/joy`,`/grateful`, `/uncertainty`
+Mine the depths of your experience: `/pay`, `/constant`, `/why`, `/worst-critic`
+What would they do if they do your niche?: `/mrbeast`, `/veritasium`, `/thePrimeagen`,`/fireship`,`/5-minute-crafts`
 
 ## Platforms & video types
 
