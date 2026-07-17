@@ -9,8 +9,10 @@ Skill bundle for video ideation. AI opens the rails; you bring the expertise and
 [![skills.sh](https://skills.sh/b/andrewkamphey/video-ideas)](https://skills.sh/andrewkamphey/video-ideas)
 
 ```bash
-npx skills add andrewkamphey/video-ideas
+npx skills add andrewkamphey/video-ideas --all
 ```
+
+Installs all 29 skills — the bundle is meant to work together.
 
 Slash a skill: `/hooks`, `/scopedown`, `/iterate`, …
 Don't know where to start:  `/pick-tool`
