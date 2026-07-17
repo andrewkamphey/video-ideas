@@ -41,7 +41,7 @@ summary: Pepper beginner questions or dump a naive question list to map the comm
 id: bad
 name: Bad
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /bad
 inputs: [concept]
 platforms: [any]
@@ -54,39 +54,39 @@ summary: List bad things bluntly — acknowledgment, not obligatory triumph arcs
 id: joy
 name: Joy
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /joy
 inputs: [concept]
 platforms: [any]
 triggers: [joy, joyful, over excited, write and move on]
 path: ../joy/SKILL.md
-summary: Rapid inventory of joy — write it down and move on; don't marinate.
+summary: Interactive countdown to 20 joys — write it down and move on; don't marinate.
 ```
 
 ```yaml
 id: grateful
 name: Grateful
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /grateful
 inputs: [concept]
 platforms: [any]
 triggers: [grateful, gratitude, who helped, past self]
 path: ../grateful/SKILL.md
-summary: Flow through gratefulness — who, what, why, when; past-self and near-misses.
+summary: Interactive countdown to 20 grateful moments — who, what, why, when; past-self and near-misses.
 ```
 
 ```yaml
 id: pay
 name: Pay
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /pay
 inputs: [concept]
 platforms: [any]
 triggers: [pay, what people pay for, revenue, transactions, sales not marketing]
 path: ../pay/SKILL.md
-summary: Inventory real money flows — what people actually pay you for, not aspirations.
+summary: Interactive countdown to 20 real money flows — what people actually pay you for, not aspirations.
 ```
 
 ```yaml
@@ -106,39 +106,39 @@ summary: Dump 1–2 word searchable pillars for a topic or expertise world — n
 id: cant
 name: CANT
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /cant
 inputs: [expertise]
 platforms: [any]
 triggers: [cant, can't, cannot, myths, limits, impossibilities]
 path: ../cant/SKILL.md
-summary: List hard cannots and domain myths — edges of what you can and can't do.
+summary: Interactive countdown to 20 cannots and domain myths — edges of what you can and can't do.
 ```
 
 ```yaml
 id: constant
 name: Constant
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /constant
 inputs: [concept]
 platforms: [any]
 triggers: [constant, ongoing work, invisible load, still work]
 path: ../constant/SKILL.md
-summary: Name recurring labor outsiders assume is done — the weight that never stops.
+summary: Interactive countdown to 20 constants — recurring labor outsiders assume is done.
 ```
 
 ```yaml
 id: uncertainty
 name: Uncertainty
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /uncertainty
 inputs: [concept]
 platforms: [any]
 triggers: [uncertainty, uncertain, false certainty, unknown unknowns]
 path: ../uncertainty/SKILL.md
-summary: Surface what stays unresolved and what people wrongly treat as settled.
+summary: Interactive countdown to 20 uncertainties — what stays unresolved and what people wrongly treat as settled.
 ```
 
 ```yaml

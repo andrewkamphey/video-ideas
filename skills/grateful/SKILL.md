@@ -1,7 +1,7 @@
 ---
 name: grateful
 description: >-
-  Flow through gratefulness — who, what, why, when; past-self and near-misses. Triggers: grateful, gratitude, who helped, past self. Part of VIDEO IDEAS.
+  Interactive countdown to 20 grateful moments — who, what, why, when; past-self and near-misses. Triggers: grateful, gratitude, who helped, past self. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -21,30 +21,70 @@ Life / work / domain. Optional time window.
 
 ## Mode
 
-`batch` — move through the prompt set; capture concrete who/what/why/when; optional video angles from entries.
+`interactive` — one turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod.
+
+**Kickoff options** (not a separate finish path):
+
+- **You start** — user lists first (2–3 items, or a batch dump in one message)
+- **I start / starter list** — AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
+- **Batch kickoff** — number each dumped item, capture who/what/why/when, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
-1. Ask for life / work / domain context (optional time window).
-2. Who helped you? — capture who, what, why, when.
-3. What helped you? — capture specifics.
-4. Why did they help you?
-5. What are you grateful for?
-6. Who are you grateful for?
-7. What circumstance could have been far worse had something awesome not happened instead?
-8. Is there a part of your life which you don't even have to think about anymore because you worked through it — and you're grateful for your past self for doing that?
-9. Optional: map strongest entries to video angles (thanks, past-self, near-misses).
+1. **Frame:** 20 grateful moments. You count, capture specifics, prod gently when they stall.
+2. **Context:** Life/work/domain + optional time window.
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff** — per mode above. Number items, capture who/what/why/when where possible, show `N/20`.
+5. **Loop until 20** — each turn:
+   - Show full list + `N/20` (see **Tracker format**)
+   - Ask for more; if thin, prod using the table below
+6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
+7. **Optional second pass** (only if user wants): map strongest entries to video angles (thanks, past-self, near-misses).
+
+### Prod prompts
+
+Push for specificity. Reject vague entries like "grateful for everything" before counting them. Vary the angle — who helped, what landed, what you did, what you witnessed, near-misses, past-self.
+
+| Count | Prod angle |
+|---|---|
+| 1–3 | Who helped you recently — and what specifically did they do? What would have been harder without them? |
+| 3–6 | What helped you — a tool, a habit, a circumstance, a piece of advice? What did you actually do with it? |
+| 6–9 | What are you grateful for that you almost didn't get — a near-miss, a close call, something that could have gone worse? |
+| 9–12 | Who are you grateful for that you haven't thanked properly — big debt or small kindness? |
+| 12–15 | What part of your life do you not have to think about anymore because past-you worked through it? What did past-you do? |
+| 15–17 | What gratitude did you feel after the fact — something you only appreciated once it was over or once you saw what others go through? |
+| 18–20 | What should you be grateful for but aren't — help you took for granted, a win you didn't acknowledge, someone whose effort you didn't see at the time? |
+
+Example lines: *"That's 7. Thirteen more. Who helped you this month — name them and what they did."* · *"You listed people — what about a circumstance or tool?"* · *"What did past-you do that current-you doesn't have to think about?"* · *"Gratitude you only felt looking back?"* · *"Smallest kindness someone showed you?"* · *"What did you witness others struggle with that made you grateful for what you have?"*
+
+## Tracker format
+
+```markdown
+## Grateful list (7/20)
+
+1. … (who / what / why / when)
+2. …
+…
+7. …
+
+**13 to go.** Who helped you that you haven't named yet?
+```
 
 ## Stop
 
-Structured gratefulness notes captured. User picks what to develop.
+20 items captured and echoed as a flat numbered list. User picks what to develop.
+
+Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Keep prodding past 5–8 comfortable items.
 
 ## Output
 
-Structured notes (who / what / why / when) per prompt cluster; optional title/idea list.
+1. Numbered list of exactly 20 grateful moments (who / what / why / when where possible)
+2. Optional: title/idea list from strongest entries
 
 ## Anti-patterns
 
 - Do not produce vague "grateful for everything" filler — require specifics
 - Do not turn into a redemption sequel to Bad unless the user wants that link
 - Do not skip past-self / near-miss prompts — they're high-yield for video
+- Do not fill the list for the user — prod, don't invent their gratitude (starter lists = prompts/stems only)
+- Do not stop at 5–8 items or accept vague entries without pushing for specifics

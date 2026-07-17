@@ -1,7 +1,7 @@
 ---
 name: cant
 description: >-
-  List hard cannots and domain myths — edges of what you can and can't do. Triggers: cant, can't, cannot, myths, limits, impossibilities. Part of VIDEO IDEAS.
+  Interactive countdown to 20 cannots and domain myths — edges of what you can and can't do. Triggers: cant, can't, cannot, myths, limits, impossibilities. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
@@ -23,22 +23,64 @@ World of expertise / domain. Optionally who "people" are — clients, audience, 
 
 ## Mode
 
-`batch` — generate a long can't-list; then optionally map strongest items to video ideas.
+`interactive` — one turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod.
+
+**Kickoff options** (not a separate finish path):
+
+- **You start** — user lists first (2–3 items, or a batch dump in one message)
+- **I start / starter list** — AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
+- **Batch kickoff** — number each dumped item, state each cannot, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
-1. Ask for world of expertise / domain. Optionally who assumes you can do things.
-2. Dump a long list of absolute cannots — clear, specific, blunt.
-3. Name myths people hold about what's possible in this world.
-4. Optional second pass: video angles for people nearing those limits.
+1. **Frame:** 20 cannots. You count, state each bluntly, prod gently when they stall. No humblebragging.
+2. **Context:** World of expertise / domain. Optionally who assumes you can do things.
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff** — per mode above. Number items, state each cannot, show `N/20`.
+5. **Loop until 20** — each turn:
+   - Show full list + `N/20` (see **Tracker format**)
+   - Ask for more; if thin, prod using the table below
+6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
+7. **Optional second pass** (only if user wants): video angles for people nearing those limits.
+
+### Prod prompts
+
+Push for specificity. Reject soft entries like "I'm not great at X" before counting them — only hard cannots. Vary the angle — what you tried, what you hit, what others assume, myths, structural limits.
+
+| Count | Prod angle |
+|---|---|
+| 1–3 | What can you absolutely not do — structural, physical, legal, ethical, domain-true limits? What did you try and hit the wall? |
+| 3–6 | What do clients or your audience assume you can do — but you can't? Name the myth. |
+| 6–9 | What can't anyone in your field do, but people outside think is possible? |
+| 9–12 | What's a small cannot — a narrow edge case, a tool limitation, something that seems doable until you try? |
+| 12–15 | What limits did you see others hit — peers, competitors, people you watched struggle at the same wall? |
+| 15–17 | What can't you do that you only learned after the fact — something you assumed was possible until experience said no? |
+| 18–20 | What can't you do that people should know before they start — a myth that wastes time, money, or hope? |
+
+Example lines: *"That's 7. Thirteen more. What do clients ask for that you have to say no to?"* · *"You listed technical limits — what about legal, ethical, or physical?"* · *"What myth does your industry sell?"* · *"Smallest thing people think you can do but you can't?"* · *"What did you personally try and fail at structurally?"* · *"What wall did you watch someone else hit?"*
+
+## Tracker format
+
+```markdown
+## CANT list (8/20)
+
+1. …
+2. …
+…
+8. …
+
+**12 to go.** What do people in your audience assume you can do?
+```
 
 ## Stop
 
-Can't-list is captured. User picks strongest items to develop.
+20 items captured and echoed as a flat numbered list. User picks strongest items to develop.
+
+Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Keep prodding past 5–8 comfortable items.
 
 ## Output
 
-1. Flat list of absolute cannots (clear, specific)
+1. Numbered list of exactly 20 absolute cannots (clear, specific, blunt)
 2. Optional second pass: video angles for people nearing those limits
 
 ## Anti-patterns
@@ -46,3 +88,5 @@ Can't-list is captured. User picks strongest items to develop.
 - Do not list skills you're merely "not great at" — only hard cannots / structural / physical / ethical / legal / domain-true limits
 - Do not turn it into a humblebrag of what you *can* do
 - Do not soft-pedal myths; name them bluntly
+- Do not fill the list for the user — prod, don't invent their cannots (starter lists = prompts/stems only)
+- Do not stop at 5–8 items or accept vague entries without pushing for specifics

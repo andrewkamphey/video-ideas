@@ -13,7 +13,7 @@ Before starting, read [shared-rules.md](../video-ideas/shared-rules.md).
 
 ## Purpose
 
-You give context — who you are, what you do, what you have experience in — then the facilitator asks a **ton** of questions from a beginner. Use it to generate a list of questions, or to have a Socratic debate with you. Helps hone experience/knowledge into a beginner-friendly realm.
+You give context. Who you are, what you do, what you have experience in. Then the facilitator asks a bunch of questions from a beginner. Use it to generate a list of questions, or to have a Socratic debate with you. Helps hone experience/knowledge into a beginner-friendly realm.
 
 Also serves the "know what everyone else knows" need: beginner questions map the common baseline so you can answer from your unique expertise (not invent for a beginner — respond *to* one).
 
