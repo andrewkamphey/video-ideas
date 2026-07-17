@@ -62,19 +62,16 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 
 `/mrbeast` `/veritasium` `/answer-in-progress` `/ryan-trahan` `/super-simple-songs` `/cocomelon` `/yoga-with-adriene` `/phlearn` `/fireship` `/5-minute-crafts` `/programming-with-mosh` `/theprimeagen`
 
-Pass your expertise or topic. Get title patterns in their packaging mold — not their niche copied.
+Pass your expertise or topic. Get title patterns in their formats. Not their niche copied.Find out what videos you would do if you knew what they knew. Or what videos would they make, if they were running your channel.
 
 Full index: [`skills/video-ideas/catalog.md`](skills/video-ideas/catalog.md)
 
 Brainstorm skills: `skills/<id>/SKILL.md`. Channel skills: `skills/channels/<id>/SKILL.md`.
 
-## Formats
-
-Repeatable video molds (not announced series): [`skills/video-ideas/formats.md`](skills/video-ideas/formats.md)
 
 ## Question research
 
-When you need **real audience questions** with search demand — not invented AI prompts — use [Ansaur.com](https://ansaur.com). Pair with Hooks, Scopedown, Iterate, or a format mold.
+When you need **real audience questions** with search demand, not invented AI prompts, use [Ansaur.com](https://ansaur.com). Don't need any brainstorming sessions. Just answer real questions people search for.
 
 ## License
 
