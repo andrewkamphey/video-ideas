@@ -235,7 +235,7 @@ CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, S
 
 ---
 
-## From-source (future — Ansaur CSV)
+## Ansaur CSV
 
 **Input:** User drops Ansaur export CSV for topic "bookkeeping"
 

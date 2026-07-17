@@ -1,27 +1,39 @@
 # Catalog
 
-Full index of VIDEO IDEAS tools. Grouped by category. Load **one** tool file per session.
+Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per session. Brainstorm skills live at `skills/<id>/SKILL.md`; channel skills at `skills/channels/<id>/SKILL.md`.
 
 ## TOC
 
-- [Brainstorm](#brainstorm) — 15 tools
-- [Channels](#channels) — 12 tools (slash commands)
-- [From-source](#from-source) — stub (future tools)
-- [Team](#team) — stub (future tools)
+- [Brainstorm](#brainstorm) — 16 skills
+- [Channels](#channels) — 12 skills (slash commands)
 
 ---
 
 ## Brainstorm
 
 ```yaml
+id: pick-tool
+name: Pick Tool
+category: brainstorm
+mode: interactive
+slash: /pick-tool
+inputs: [feeling, goal]
+platforms: [any]
+triggers: [pick tool, /pick-tool, choose skill, which tool, menu]
+path: ../pick-tool/SKILL.md
+summary: Ask how you feel or what you want — suggest skills, pick one, run it.
+```
+
+```yaml
 id: beginner
 name: Beginner
 category: brainstorm
 mode: interactive
+slash: /beginner
 inputs: [concept, topic]
 platforms: [any]
 triggers: [beginner, beginner questions, socratic, naive questions, beginner list]
-path: tools/brainstorm/beginner.md
+path: ../beginner/SKILL.md
 summary: Pepper beginner questions or dump a naive question list to map the common baseline.
 ```
 
@@ -30,10 +42,11 @@ id: bad
 name: Bad
 category: brainstorm
 mode: batch
+slash: /bad
 inputs: [concept]
 platforms: [any]
 triggers: [bad, radical acceptance, list the bad, complaints]
-path: tools/brainstorm/bad.md
+path: ../bad/SKILL.md
 summary: List bad things bluntly — acknowledgment, not obligatory triumph arcs.
 ```
 
@@ -42,10 +55,11 @@ id: joy
 name: Joy
 category: brainstorm
 mode: batch
+slash: /joy
 inputs: [concept]
 platforms: [any]
 triggers: [joy, joyful, over excited, write and move on]
-path: tools/brainstorm/joy.md
+path: ../joy/SKILL.md
 summary: Rapid inventory of joy — write it down and move on; don't marinate.
 ```
 
@@ -54,10 +68,11 @@ id: grateful
 name: Grateful
 category: brainstorm
 mode: batch
+slash: /grateful
 inputs: [concept]
 platforms: [any]
 triggers: [grateful, gratitude, who helped, past self]
-path: tools/brainstorm/grateful.md
+path: ../grateful/SKILL.md
 summary: Flow through gratefulness — who, what, why, when; past-self and near-misses.
 ```
 
@@ -66,10 +81,11 @@ id: pay
 name: Pay
 category: brainstorm
 mode: batch
+slash: /pay
 inputs: [concept]
 platforms: [any]
 triggers: [pay, what people pay for, revenue, transactions, sales not marketing]
-path: tools/brainstorm/pay.md
+path: ../pay/SKILL.md
 summary: Inventory real money flows — what people actually pay you for, not aspirations.
 ```
 
@@ -78,10 +94,11 @@ id: big
 name: BIG
 category: brainstorm
 mode: batch
+slash: /big
 inputs: [topic]
 platforms: [any]
 triggers: [big, big ideas, pillars, searchable, domain map]
-path: tools/brainstorm/big.md
+path: ../big/SKILL.md
 summary: Dump 1–2 word searchable pillars for a topic or expertise world — not titles.
 ```
 
@@ -90,10 +107,11 @@ id: cant
 name: CANT
 category: brainstorm
 mode: batch
+slash: /cant
 inputs: [expertise]
 platforms: [any]
 triggers: [cant, can't, cannot, myths, limits, impossibilities]
-path: tools/brainstorm/cant.md
+path: ../cant/SKILL.md
 summary: List hard cannots and domain myths — edges of what you can and can't do.
 ```
 
@@ -102,10 +120,11 @@ id: constant
 name: Constant
 category: brainstorm
 mode: batch
+slash: /constant
 inputs: [concept]
 platforms: [any]
 triggers: [constant, ongoing work, invisible load, still work]
-path: tools/brainstorm/constant.md
+path: ../constant/SKILL.md
 summary: Name recurring labor outsiders assume is done — the weight that never stops.
 ```
 
@@ -114,10 +133,11 @@ id: uncertainty
 name: Uncertainty
 category: brainstorm
 mode: batch
+slash: /uncertainty
 inputs: [concept]
 platforms: [any]
 triggers: [uncertainty, uncertain, false certainty, unknown unknowns]
-path: tools/brainstorm/uncertainty.md
+path: ../uncertainty/SKILL.md
 summary: Surface what stays unresolved and what people wrongly treat as settled.
 ```
 
@@ -126,10 +146,11 @@ id: why
 name: Why
 category: brainstorm
 mode: interactive
+slash: /why
 inputs: [concept]
 platforms: [any]
 triggers: [why, why chain, 5 whys, five whys]
-path: tools/brainstorm/why.md
+path: ../why/SKILL.md
 summary: Dig five layers of why to sharpen a video idea.
 ```
 
@@ -138,10 +159,11 @@ id: iterate
 name: Iterate
 category: brainstorm
 mode: batch
+slash: /iterate
 inputs: [title]
 platforms: [any]
 triggers: [iterate, thesaurus, word swap, title variants]
-path: tools/brainstorm/iterate.md
+path: ../iterate/SKILL.md
 summary: One title or topic — riff a single word slot with synonyms, negatives, and wild swaps.
 ```
 
@@ -150,10 +172,11 @@ id: hooks
 name: Hooks
 category: brainstorm
 mode: batch
+slash: /hooks
 inputs: [title]
 platforms: [any]
 triggers: [hooks, hook variants, openings]
-path: tools/brainstorm/hooks.md
+path: ../hooks/SKILL.md
 summary: Same one video — many different hooks only.
 ```
 
@@ -162,10 +185,11 @@ id: scopedown
 name: Scopedown
 category: brainstorm
 mode: batch
+slash: /scopedown
 inputs: [title]
 platforms: [any]
 triggers: [scopedown, scope down, process steps, filmable parts]
-path: tools/brainstorm/scopedown.md
+path: ../scopedown/SKILL.md
 summary: One title or idea per process step — resist the full-outline mega-video.
 ```
 
@@ -174,10 +198,11 @@ id: memento-mori
 name: Memento Mori
 category: brainstorm
 mode: interactive
+slash: /memento-mori
 inputs: [concept]
 platforms: [any]
 triggers: [memento mori, deathbed, regret, last thing unsaid]
-path: tools/brainstorm/memento-mori.md
+path: ../memento-mori/SKILL.md
 summary: Deathbed regret chain — map each truth to a video idea you'd finally say.
 ```
 
@@ -186,10 +211,11 @@ id: worst-critic
 name: Worst Critic
 category: brainstorm
 mode: interactive
+slash: /worst-critic
 inputs: [concept]
 platforms: [any]
 triggers: [worst critic, part x, stutz, prove it, harsh criticism]
-path: tools/brainstorm/worst-critic.md
+path: ../worst-critic/SKILL.md
 summary: Face the harshest criticism — then make proof-oriented video ideas, not reassurance.
 ```
 
@@ -208,7 +234,7 @@ slash: /mrbeast
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [mrbeast, /mrbeast, beast, stakes, last to leave]
-path: tools/channels/mrbeast.md
+path: ../channels/mrbeast/SKILL.md
 summary: Transpose Beast title grammar — stakes, money, scale — onto your expertise.
 ```
 
@@ -221,7 +247,7 @@ slash: /veritasium
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [veritasium, /veritasium, curiosity gap, explain]
-path: tools/channels/veritasium.md
+path: ../channels/veritasium/SKILL.md
 summary: Transpose Veritasium patterns — curiosity gap, weird fact, explain — onto your topic.
 ```
 
@@ -234,7 +260,7 @@ slash: /answer-in-progress
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [answer in progress, /answer-in-progress, whimsical why]
-path: tools/channels/answer-in-progress.md
+path: ../channels/answer-in-progress/SKILL.md
 summary: Whimsical why + prove-a-point process titles for your domain.
 ```
 
@@ -247,7 +273,7 @@ slash: /ryan-trahan
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [ryan trahan, /ryan-trahan, quest, i did this]
-path: tools/channels/ryan-trahan.md
+path: ../channels/ryan-trahan/SKILL.md
 summary: Earnest I-did-this quest titles applied to your craft or topic.
 ```
 
@@ -260,7 +286,7 @@ slash: /super-simple-songs
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [super simple songs, /super-simple-songs, singable, kids songs]
-path: tools/channels/super-simple-songs.md
+path: ../channels/super-simple-songs/SKILL.md
 summary: Ultra-simple singable loop patterns for your teachable topic.
 ```
 
@@ -273,7 +299,7 @@ slash: /cocomelon
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [cocomelon, /cocomelon, toddler clarity, routine]
-path: tools/channels/cocomelon.md
+path: ../channels/cocomelon/SKILL.md
 summary: Toddler-max clarity and routine-song title patterns for your subject.
 ```
 
@@ -286,7 +312,7 @@ slash: /yoga-with-adriene
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [yoga with adriene, /yoga-with-adriene, find what feels good]
-path: tools/channels/yoga-with-adriene.md
+path: ../channels/yoga-with-adriene/SKILL.md
 summary: Gentle timed-practice title patterns — beginner-friendly, body-specific.
 ```
 
@@ -299,7 +325,7 @@ slash: /phlearn
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [phlearn, /phlearn, how to, technique]
-path: tools/channels/phlearn.md
+path: ../channels/phlearn/SKILL.md
 summary: Clear how-to technique titles — one skill, one video.
 ```
 
@@ -312,7 +338,7 @@ slash: /fireship
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [fireship, /fireship, 100 seconds, code report]
-path: tools/channels/fireship.md
+path: ../channels/fireship/SKILL.md
 summary: Compressed witty tech title patterns — fast hook, opinion, demo.
 ```
 
@@ -325,7 +351,7 @@ slash: /5-minute-crafts
 inputs: [expertise, topic]
 platforms: [youtube, tiktok]
 triggers: [5 minute crafts, /5-minute-crafts, hacks, numbered list]
-path: tools/channels/5-minute-crafts.md
+path: ../channels/5-minute-crafts/SKILL.md
 summary: Rapid numbered visual hack title patterns for your niche.
 ```
 
@@ -338,7 +364,7 @@ slash: /programming-with-mosh
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [programming with mosh, /programming-with-mosh, full course, beginner]
-path: tools/channels/programming-with-mosh.md
+path: ../channels/programming-with-mosh/SKILL.md
 summary: Clean full beginner course title patterns for your teachable skill.
 ```
 
@@ -351,22 +377,6 @@ slash: /theprimeagen
 inputs: [expertise, topic]
 platforms: [youtube]
 triggers: [theprimeagen, /theprimeagen, prime, hot take, live craft]
-path: tools/channels/theprimeagen.md
+path: ../channels/theprimeagen/SKILL.md
 summary: High-energy eng opinion + live craft title patterns for your domain.
 ```
-
----
-
-## From-source
-
-Category stub — no implemented tools in v1. Future inputs: video, transcript, article, text, Ansaur CSV.
-
-See [tools/from-source/_CATEGORY.md](tools/from-source/_CATEGORY.md).
-
----
-
-## Team
-
-Category stub — no implemented tools in v1. Future: multiplayer workshop facilitation.
-
-See [tools/team/_CATEGORY.md](tools/team/_CATEGORY.md).

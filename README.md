@@ -1,8 +1,8 @@
 # VIDEO IDEAS
 
-Skill for video ideation. AI opens the rails, while you bring the expertise and finish the ideas.
+Skill bundle for video ideation. AI opens the rails; you bring the expertise and finish the ideas.
 
-**Brainstorm. Don't Finish.** Tools facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
+**Brainstorm. Don't Finish.** Skills facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
 
 ## Install
 
@@ -12,60 +12,57 @@ Skill for video ideation. AI opens the rails, while you bring the expertise and 
 npx skills add andrewkamphey/video-ideas
 ```
 
+Slash a skill: `/hooks`, `/scopedown`, `/iterate`, …
+Don't know where to start:  `/pick-tool`
+What would Channel do if they?: `/mrbeast`, `/veritasium`,…
+
 ## Platforms & video types
 
-Tools work generally across every video platform. Mention platform or video type when it helps—the agent will tailor. Some tools fit certain platforms better (e.g. Hooks → short-form; Scopedown → long-form or course lessons).
+Tools work generally across every video platform, across video types, and between both free and paid content. Some skills fit certain video types better (e.g. Hooks → short-form; Scopedown → long-form or course lessons). Mix and match for interesting results.
 
-**Social & short-form:** YouTube, YouTube Shorts, TikTok, Instagram Reels, Instagram Stories, Facebook Reels, X, Threads, LinkedIn, Mastodon
-
-**Live & streaming:** Twitch, YouTube Live
-
-**Courses & paid content:** Coursera, Udemy, Skillshare, Teachable, Kajabi, Gumroad, Patreon, Substack
-
-**Podcasts & async video:** Spotify (video podcasts), Apple Podcasts, Discord
+YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, LinkedIn, Mastodon, Twitch, YouTube Live, Coursera, Udemy, Skillshare, Teachable, Kajabi, Gumroad, Patreon, Substack, Spotify video podcasts, Apple Podcasts, Discord
 
 **Video types:** shorts, long-form, live, screencast, podcasts, video courses, webinar, tutorial, product demo, talking head
 
-**Other Platforms:** Vimeo, Rumble, Dailymotion, Facebook Watch, Snapchat Spotlight, Bluesky, Reddit video, Kick, Loom, Wistia, Zoom recordings
+**Other platforms:** Vimeo, Rumble, Dailymotion, Facebook Watch, Snapchat Spotlight, Bluesky, Reddit video, Kick, Loom, Wistia, Zoom recordings
 
-Repeatable **title molds** (not platforms): [`skills/video-ideas/formats.md`](skills/video-ideas/formats.md)
-
-## Categories
+## Skill categories
 
 | Category | What it does |
 |----------|--------------|
-| **brainstorm** | Facilitation methods—inventory, pressure, hooks, scopedown |
-| **channels** | Mimic a creator's *approach* applied to **your** expertise (slash commands) |
-| **from-source** | Future: transcript, article, Ansaur CSV → ideas |
-| **team** | Future: multiplayer workshop tools |
+| **brainstorm** | Facilitation rails — inventory, pressure, hooks, scopedown, pick-tool |
+| **channels** | Mimic a creator's *approach* applied to **your** expertise |
 
-## Channel slash commands
+## Brainstorm skills
+
+| Slash | id | Mode | Summary |
+|-------|-----|------|---------|
+| `/pick-tool` | pick-tool | interactive | Ask how you feel or your goal — suggest a skill, then run it |
+| `/beginner` | beginner | interactive | Beginner questions — list or Socratic |
+| `/bad` | bad | batch | Radical Acceptance inventory of the bad |
+| `/joy` | joy | batch | Opposite of Bad — write joy and move on |
+| `/grateful` | grateful | batch | Who/what/why/when gratefulness flow |
+| `/pay` | pay | batch | What people actually pay you for |
+| `/big` | big | batch | 1–2 word searchable domain pillars |
+| `/cant` | cant | batch | Things you cannot do — myths and limits |
+| `/constant` | constant | batch | Work that never stops being work |
+| `/uncertainty` | uncertainty | batch | What stays unresolved |
+| `/why` | why | interactive | Five-layer why chain |
+| `/iterate` | iterate | batch | One title slot — many word variants |
+| `/hooks` | hooks | batch | One video — many hooks |
+| `/scopedown` | scopedown | batch | One step per video — resist mega-outline |
+| `/memento-mori` | memento-mori | interactive | Deathbed regret → video ideas |
+| `/worst-critic` | worst-critic | interactive | Part X dossier → prove-it videos |
+
+## Channel skills
 
 `/mrbeast` `/veritasium` `/answer-in-progress` `/ryan-trahan` `/super-simple-songs` `/cocomelon` `/yoga-with-adriene` `/phlearn` `/fireship` `/5-minute-crafts` `/programming-with-mosh` `/theprimeagen`
 
-Pass your expertise or topic. Get title patterns in their packaging mold—not their niche copied.
-
-## Seed tools (brainstorm)
-
-| id | Mode | Summary |
-|----|------|---------|
-| `beginner` | batch / interactive | Beginner questions—list or Socratic |
-| `bad` | batch | Radical Acceptance inventory of the bad |
-| `joy` | batch | Opposite of Bad—write joy and move on |
-| `grateful` | batch | Who/what/why/when gratefulness flow |
-| `pay` | batch | What people actually pay you for (transactions) |
-| `big` | batch | 1–2 word searchable domain pillars |
-| `cant` | batch | Things you cannot do—myths and limits |
-| `constant` | batch | Work that never stops being work |
-| `uncertainty` | batch | What stays unresolved; false certainties |
-| `why` | interactive | Five-layer why chain |
-| `iterate` | batch | One title slot—many word variants |
-| `hooks` | batch | One video—many hooks |
-| `scopedown` | batch | One step per video—resist full outline |
-| `memento-mori` | interactive | Deathbed regret → video ideas |
-| `worst-critic` | interactive | Part X dossier → prove-it videos |
+Pass your expertise or topic. Get title patterns in their packaging mold — not their niche copied.
 
 Full index: [`skills/video-ideas/catalog.md`](skills/video-ideas/catalog.md)
+
+Brainstorm skills: `skills/<id>/SKILL.md`. Channel skills: `skills/channels/<id>/SKILL.md`.
 
 ## Formats
 
@@ -73,7 +70,7 @@ Repeatable video molds (not announced series): [`skills/video-ideas/formats.md`]
 
 ## Question research
 
-When you need **real audience questions** with search demand—not invented AI prompts—use [Ansaur.com](https://ansaur.com). Enter a topic; get related Google questions with monthly search counts. Film answers. Pair with Hooks, Scopedown, Iterate, or a format mold.
+When you need **real audience questions** with search demand — not invented AI prompts — use [Ansaur.com](https://ansaur.com). Pair with Hooks, Scopedown, Iterate, or a format mold.
 
 ## License
 
