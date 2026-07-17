@@ -1,37 +1,20 @@
 # VIDEO IDEAS
 
-Skill for video ideation. AI opens the rails—you bring the expertise and finish the ideas.
+Skill for video ideation. AI opens the rails, while you bring the expertise and finish the ideas.
 
-**Start, don't complete.** Tools facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
+**Brainstorm. Don't Finish.** Tools facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
 
 ## Install
 
 [![skills.sh](https://skills.sh/b/andrewkamphey/video-ideas)](https://skills.sh/andrewkamphey/video-ideas)
 
-**Recommended** — install with the [skills CLI](https://skills.sh) (works with Cursor, Claude Code, Codex, and 70+ agents):
-
 ```bash
-# Global install (available across all your projects)
-npx skills add andrewkamphey/video-ideas --skill video-ideas -g -y
-
-# Project install (committed with your repo)
-npx skills add andrewkamphey/video-ideas --skill video-ideas -y
-
-# Preview without installing
-npx skills add andrewkamphey/video-ideas --list
+npx skills add andrewkamphey/video-ideas
 ```
 
-Update after changes: `npx skills update video-ideas`
+## Platforms/Format
 
-**Manual** — if you prefer not to use the CLI:
-
-- **Clone** — keep this repo in your workspace so the AI can read `catalog.md` and tool files on demand
-- **Skills library** — point your tool at `skills/video-ideas/`
-- **System prompt** — paste or attach `skills/video-ideas/SKILL.md` plus the files it references
-
-## Platforms (soft context)
-
-YouTube, TikTok, X, Instagram, Facebook Reels, LinkedIn — named when relevant; tools work across platforms.
+The tools will work generally across every video platform. There are times when a certain skill does specifically work better for a type of video or a platform. YouTube, YouTube Shorts, TikTok, X, Instagram, Facebook Reels, LinkedIn, Mastadon,Twitch, YouTube Live, Coursera, Udemy, shorts, long form, live, video courses.
 
 ## Categories
 
