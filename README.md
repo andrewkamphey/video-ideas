@@ -1,8 +1,8 @@
 # VIDEO IDEAS
 
-Skill bundle for video ideation. AI opens the rails; you bring the expertise and finish the ideas.
+Spark your brainstorming sessions. Skill bundle for video ideation. You bring the experience, expertise, and topics, AI can help you down different paths for your video topics/titles/ideas. Sometimes you wake up and need to push through a cold start. Sometimes you just want a helpful guide to get you from 1 idea to 20.
 
-**Brainstorm. Don't Finish.** Skills facilitate brainstorming, channel mimic, and format shaping. They do not deliver a finished content calendar.
+**Brainstorm. Don't Finish.** Skills help the brainstorming process, can mimic what another channel might do in your niche, and help shape formats. AI does not deliver a finished content calendar nor a script. You can, if you want, prompt AI to write a script once you've come up with a title/topic/idea. But this skill is not for that.
 
 ## Install
 
@@ -12,7 +12,7 @@ Skill bundle for video ideation. AI opens the rails; you bring the expertise and
 npx skills add andrewkamphey/video-ideas --all
 ```
 
-Installs all 29 skills — the bundle is meant to work together.
+Installs all 29 skills. The bundle can work together. Or be used on a one-off basis.
 
 Slash a skill: `/hooks`, `/scopedown`, `/iterate`, …
 Don't know where to start:  `/pick-tool`
@@ -20,7 +20,9 @@ What would Channel do if they?: `/mrbeast`, `/veritasium`,…
 
 ## Platforms & video types
 
-Tools work generally across every video platform, across video types, and between both free and paid content. Some skills fit certain video types better (e.g. Hooks → short-form; Scopedown → long-form or course lessons). Mix and match for interesting results.
+Tools work across every video platform, differenct video types, and between both free and paid content.
+
+Some skills fit certain video types better like Hooks, for short-form. But go crazy. Mix and match for interesting results. It's just brainstorming my man. Go for some out there ideas. You alway choose what videos you ultimately make.
 
 YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, LinkedIn, Mastodon, Twitch, YouTube Live, Coursera, Udemy, Skillshare, Teachable, Kajabi, Gumroad, Patreon, Substack, Spotify video podcasts, Apple Podcasts, Discord
 
@@ -32,29 +34,29 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 
 | Category | What it does |
 |----------|--------------|
-| **brainstorm** | Facilitation rails — inventory, pressure, hooks, scopedown, pick-tool |
-| **channels** | Mimic a creator's *approach* applied to **your** expertise |
+| **brainstorm** | Helps you come up with ideas. |
+| **channels** | See what a channel would do if they knew what you know. |
 
 ## Brainstorm skills
 
 | Slash | id | Mode | Summary |
 |-------|-----|------|---------|
-| `/pick-tool` | pick-tool | interactive | Ask how you feel or your goal — suggest a skill, then run it |
-| `/beginner` | beginner | interactive | Beginner questions — list or Socratic |
-| `/bad` | bad | batch | Radical Acceptance inventory of the bad |
-| `/joy` | joy | batch | Opposite of Bad — write joy and move on |
-| `/grateful` | grateful | batch | Who/what/why/when gratefulness flow |
-| `/pay` | pay | batch | What people actually pay you for |
-| `/big` | big | batch | 1–2 word searchable domain pillars |
-| `/cant` | cant | batch | Things you cannot do — myths and limits |
+| `/pick-tool` | pick-tool | interactive | Ask how you feel. Suggests a skill |
+| `/beginner` | beginner | interactive | A beginner asks you questions. |
+| `/bad` | bad | batch | Catalog your challenges |
+| `/joy` | joy | batch | Take account of what brings you JOY |
+| `/grateful` | grateful | batch | Feel the gratefulness flow through you |
+| `/pay` | pay | batch | Why do people pay you?|
+| `/big` | big | batch | Zoom out. Big topics |
+| `/cant` | cant | batch | Things you can not do |
 | `/constant` | constant | batch | Work that never stops being work |
-| `/uncertainty` | uncertainty | batch | What stays unresolved |
-| `/why` | why | interactive | Five-layer why chain |
-| `/iterate` | iterate | batch | One title slot — many word variants |
-| `/hooks` | hooks | batch | One video — many hooks |
-| `/scopedown` | scopedown | batch | One step per video — resist mega-outline |
-| `/memento-mori` | memento-mori | interactive | Deathbed regret → video ideas |
-| `/worst-critic` | worst-critic | interactive | Part X dossier → prove-it videos |
+| `/uncertainty` | uncertainty | batch | What stays unresolved, undecided |
+| `/why` | why | interactive | Asks why. Answer it. Asks why again. |
+| `/iterate` | iterate | batch | Change 1 thing ina title. Over and over and over again. |
+| `/hooks` | hooks | batch | Create many hooks for 1 video. |
+| `/scope-down` | scopedown | batch | Chop up an idea into smaller pieces |
+| `/memento-mori` | memento-mori | interactive | What's your biggest regret? Urgent to do now |
+| `/worst-critic` | worst-critic | interactive | What do they say about you? Write it down. Love it. |
 
 ## Channel skills
 
