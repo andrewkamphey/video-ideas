@@ -12,14 +12,14 @@ Generate video ideas. Spark your brainstorming sessions. Skill bundle for video 
 npx skills add andrewkamphey/video-ideas --all
 ```
 
-Installs all 31 skills. The bundle can work together. Or be used on a one-off basis.
+Installs all 17 skills. The bundle can work together. Or be used on a one-off basis.
 
 Don't know where to start:  `/pick-tool`
 Play with words: `/hooks`, `/iterate`
 Change your mindset: `/beginner`,`/big`,`/scope-down`
 Dive into an emotional state: `/bad`,`/joy`,`/grateful`, `/uncertainty`
 Mine the depths of your experience: `/pay`, `/constant`, `/simple`, `/why`, `/worst-critic`
-What would they do if they do your niche?: `/mrbeast`, `/veritasium`, `/thePrimeagen`,`/fireship`,`/5-minute-crafts`
+Channels to use: `/mrbeast`, `/veritasium`, `/thePrimeagen`,`/fireship`,`/5-minute-crafts`
 
 ## Platforms & video types
 
@@ -37,10 +37,10 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 
 | Category | What it does |
 |----------|--------------|
-| **brainstorm** | Helps you come up with ideas. |
-| **channels** | See what a channel would do if they knew what you know. |
+| **skills** | Helps you come up with ideas. |
+| **channels to use** | See what a channel would do if they knew what you know. |
 
-## Brainstorm skills
+## Skills
 
 | Slash | id | Mode | Summary |
 |-------|-----|------|---------|
@@ -62,15 +62,15 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 | `/memento-mori` | memento-mori | interactive | What's your biggest regret? Urgent to do now |
 | `/worst-critic` | worst-critic | interactive | What do they say about you? Write it down. Love it. |
 
-## Channel skills
+## Channels to use
 
 `/mrbeast` `/veritasium` `/answer-in-progress` `/ryan-trahan` `/super-simple-songs` `/cocomelon` `/yoga-with-adriene` `/phlearn` `/fireship` `/5-minute-crafts` `/programming-with-mosh` `/theprimeagen` `/t3dotgg`
 
-Pass your expertise or topic. Get title patterns in their formats. Not their niche copied.Find out what videos you would do if you knew what they knew. Or what videos would they make, if they were running your channel.
+Pass your expertise or topic. Get title patterns in their formats. Not their niche copied. Find out what videos you would do if you knew what they knew. Or what videos would they make, if they were running your channel.
 
 Full index: [`skills/video-ideas/catalog.md`](skills/video-ideas/catalog.md)
 
-Brainstorm skills: `skills/<id>/SKILL.md`. Channel skills: `skills/channels/<id>/SKILL.md`.
+Skills: `skills/<id>/SKILL.md`. Channels to use: `skills/channels/<id>/SKILL.md`.
 
 
 ## Question research

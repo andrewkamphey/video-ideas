@@ -7,7 +7,7 @@ Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per se
 ## TOC
 
 - [Brainstorm](#brainstorm): 17 skills
-- [Channels](#channels): 13 skills (slash commands)
+- [Channels](#channels): Channels to use
 
 ---
 
