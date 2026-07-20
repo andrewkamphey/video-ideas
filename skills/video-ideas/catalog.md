@@ -40,16 +40,16 @@ summary: Pepper beginner questions or dump a naive question list to map the comm
 ```
 
 ```yaml
-id: bad
-name: Bad
+id: pain
+name: Pain
 category: brainstorm
 mode: interactive
-slash: /bad
+slash: /pain
 inputs: [concept]
 platforms: [any]
-triggers: [bad, radical acceptance, list the bad, complaints]
-path: ../bad/SKILL.md
-summary: List bad things bluntly. Acknowledgment, not obligatory triumph arcs.
+triggers: [pain, bad, radical acceptance, list the pain, complaints]
+path: ../pain/SKILL.md
+summary: List pains bluntly. Acknowledgment, not obligatory triumph arcs.
 ```
 
 ```yaml

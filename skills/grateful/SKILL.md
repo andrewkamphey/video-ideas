@@ -93,7 +93,7 @@ Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Ke
 ## Anti-patterns
 
 - Do not produce vague "grateful for everything" filler. Require specifics
-- Do not turn into a redemption sequel to Bad unless the user wants that link
+- Do not turn into a redemption sequel to Pain unless the user wants that link
 - Do not skip past-self / near-miss prompts. They're high-yield for video
 - Do not fill the list for the user. Prod, don't invent their gratitude (starter lists = prompts/stems only)
 - Do not stop at 5–8 items or accept vague entries without pushing for specifics

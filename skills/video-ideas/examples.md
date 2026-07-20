@@ -21,17 +21,17 @@ Short worked sessions showing facilitator tone. Read only when stuck on how a to
 
 ---
 
-## Bad
+## Pain
 
 **Input:** "Running a one-person agency, year 3."
 
-**Facilitator:** "List the bad. Declare it bad. No triumph arc required."
+**Facilitator:** "List the pain. Declare it. No triumph arc required."
 
 **Output (fragment):**
-- Client ghosted after 40 hours of work. Bad.
-- Invoiced on time, paid 90 days late. Bad.
-- Scope creep treated as "being helpful". Bad.
-- Burned a friendship by mixing business. Bad.
+- Client ghosted after 40 hours of work. Pain.
+- Invoiced on time, paid 90 days late. Pain.
+- Scope creep treated as "being helpful". Pain.
+- Burned a friendship by mixing business. Pain.
 
 ---
 

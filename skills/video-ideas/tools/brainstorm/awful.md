@@ -25,7 +25,7 @@ Come up with AWFUL IDEAS. Videos that can't work. The premise is so bad.. nobody
 
 **Awful → awe-ful.** Bad idea that becomes awesome. Keep it awful on the page; the video earns the awe.
 
-Not Bad (personal harm). This is awful premises.
+Not Pain (personal harm). This is awful premises.
 
 ## Inputs
 
@@ -54,7 +54,7 @@ Domain / expertise / niche. Optional: audience or format.
 
 ## Anti-patterns
 
-- Do not conflate with Bad (personal harm inventory)
+- Do not conflate with Pain (personal harm inventory)
 - Do not polish awful ideas into good ones mid-list
 - Do not accept good/great ideas into the count
 - Do not rename the dump "awesome ideas" during listing

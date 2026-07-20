@@ -10,7 +10,7 @@ inputs: [concept]
 
 ## Purpose
 
-Opposite of **Bad**: inventory of uplift, not harm. Same pace: write it down, keep moving. What are you feeling joyful about, over excited, beyond belief. Could be something in your past that makes you feel joy now: some smell, some taste. Could be something you're hopeful for, something to look forward to. What are you feeling joy RIGHT NOW for. What's gotten you out of your normal mental state? A movie, a line, a joke you remember, a person.
+Opposite of **Pain**: inventory of uplift, not harm. Same pace: write it down, keep moving. What are you feeling joyful about, over excited, beyond belief. Could be something in your past that makes you feel joy now: some smell, some taste. Could be something you're hopeful for, something to look forward to. What are you feeling joy RIGHT NOW for. What's gotten you out of your normal mental state? A movie, a line, a joke you remember, a person.
 
 Don't just savor in the memory. Write down the note and move on. The point of JOY is not to marinate in the memory but rather process through the feelings and iterate.
 

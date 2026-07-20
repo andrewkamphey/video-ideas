@@ -1,14 +1,15 @@
 ---
-name: bad
+name: pain
 description: >-
-  Interactive countdown to 20 blunt bad things. Acknowledgment, no overcoming.
-  Triggers: bad, radical acceptance, list the bad, complaints, 20 bad things, countdown. Part of VIDEO IDEAS.
+  Interactive countdown to 20 blunt pains. Acknowledgment, no overcoming.
+  Triggers: pain, bad, radical acceptance, list the pain, complaints, 20 pains,
+  countdown. Part of VIDEO IDEAS.
 disable-model-invocation: true
 ---
 
-# Bad
+# Pain
 
-Slash: `/bad`
+Slash: `/pain`
 
 ## Rules
 
@@ -23,9 +24,9 @@ Slash: `/bad`
 
 ## Purpose
 
-List the bad thing. Don't tidy it into a redemption arc. Each thing bad, happening to you: List it, write it down, declare it. That's all.
+List the pain. Don't tidy it into a redemption arc. Each thing that hurts, happening to you: List it, write it down, declare it. That's all.
 
-Bad can be physical pain, complaints, things that irk you, or bad things around you. Could be bad to others too. It can mean struggle, blocked progress, money costs (real or imagined), pride or shame, costs to/from others, taxes on time, or freedom taken (real or imagined). State clearly, not how you overcame it. This can help others immensely if they feel alone or ostracized due to a percieved negativity.
+Pain can be physical pain, complaints, things that irk you, or hard things around you. Could be pain to others too. It can mean struggle, blocked progress, money costs (real or imagined), pride or shame, costs to/from others, taxes on time, or freedom taken (real or imagined). State clearly, not how you overcame it. This can help others immensely if they feel alone or ostracized due to a percieved negativity.
 
 ## Inputs
 
@@ -39,19 +40,19 @@ Life / work / domain context. Optional time window.
 
 - **You start**: user lists first (2–3 items, or a batch dump in one message)
 - **I start / starter list**: AI offers tailored prompts, categories, or fill-in stems, total guesses. User can request this anytime when stuck.
-- **Batch kickoff**: number each dumped item, declare each bad, show `N/20`, then continue interactively. Merge into the running list.
+- **Batch kickoff**: number each dumped item, declare each pain, show `N/20`, then continue interactively. Merge into the running list.
 
 ## Steps
 
-1. **Frame:** 20 bad things. You count, declare each bad, prod very quickly, shortly, when they stall. No redemption arc.
+1. **Frame:** 20 pains. You count, declare each, prod very quickly, shortly, when they stall. No redemption arc.
 2. **Context:** Life/work/domain + optional time window.
 3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
-4. **Kickoff**: per mode above. Number items, declare each bad, show `N/20`.
+4. **Kickoff**: per mode above. Number items, declare each pain, show `N/20`.
 5. **Loop until 20**. Each turn:
    - Show full list + `N/20` (see **Tracker format**)
    - Ask for more; if thin, prod using the table below
 6. **At 20:** Present the flat numbered list. Ask if they want the optional second pass.
-7. **Optional second pass** (only if user wants): ideas that help others sit with / name similar bad, not "how I beat it."
+7. **Optional second pass** (only if user wants): ideas that help others sit with / name similar pain, not "how I beat it."
 
 ### Prod prompts
 
@@ -67,19 +68,19 @@ Push for specificity. Reject vague entries, like "work sucks", before counting t
 | 15-17 | what are you ashamed about? What could you have done differently |
 | 18–20 | What do others spend time, money, energy on? that they shouldn't |
 
-Example lines: *"That's 8. Twelve more. What's physically annoying, not tragic?"* · *"You listed work. What about money?"* · *"Anything embarrassing you'd never say out loud?"* · *"Bad near you, even if it wasn't yours?"* · *"Smallest bad thing today?"*
+Example lines: *"That's 8. Twelve more. What's physically annoying, not tragic?"* · *"You listed work. What about money?"* · *"Anything embarrassing you'd never say out loud?"* · *"Pain near you, even if it wasn't yours?"* · *"Smallest pain today?"*
 
 ## Tracker format
 
 ```markdown
-## Bad list (7/20)
+## Pain list (7/20)
 
 1. …
 2. …
 …
 7. …
 
-**13 to go.** What's mildly bad you'd normally shrug off?
+**13 to go.** What's mild pain you'd normally shrug off?
 ```
 
 ## Stop
@@ -90,15 +91,15 @@ Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Ke
 
 ## Output
 
-1. Numbered list of exactly 20 bad things (blunt, specific)
-2. Optional: ideas that help others sit with / name similar bad, not "how I beat it"
+1. Numbered list of exactly 20 pains (blunt, specific)
+2. Optional: ideas that help others sit with / name similar pain, not "how I beat it"
 
 ## Anti-patterns
 
 - Do not force persistence / overcome / silver-lining frames
-- Do not skip listing to jump to content ideas before bad is named
-- Do not minimize ("that's not so bad"). Declare it bad
+- Do not skip listing to jump to content ideas before pain is named
+- Do not minimize ("that's not so bad"). Declare it pain
 - Do not stop at 5–8 items or accept vague entries without pushing for specifics
-- Do not fill the list for the user. Prod, don't invent their bad (starter lists = prompts/stems only)
-- Do not treat petty/small bad as "not bad enough"
-- Do not conflate with Worst Critic (inner attack dossier) or CANT (domain impossibilities). This is what hurt / is wrong / happened
+- Do not fill the list for the user. Prod, don't invent their pain (starter lists = prompts/stems only)
+- Do not treat petty/small pain as "not bad enough"
+- Do not conflate with Worst Critic (inner attack dossier), CANT (domain impossibilities), or Awful (terrible video premises). This is what hurt / is wrong / happened

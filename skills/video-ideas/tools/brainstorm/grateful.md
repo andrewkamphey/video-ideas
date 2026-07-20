@@ -43,5 +43,5 @@ Structured notes (who / what / why / when) per prompt cluster; optional title/id
 ## Anti-patterns
 
 - Do not produce vague "grateful for everything" filler. Require specifics
-- Do not turn into a redemption sequel to Bad unless the user wants that link
+- Do not turn into a redemption sequel to Pain unless the user wants that link
 - Do not skip past-self / near-miss prompts. They're high-yield for video

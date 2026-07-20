@@ -35,7 +35,7 @@ User may also name a topic or platform.
 3. Read [catalog.md](../../catalog.md).
 4. From their feeling and/or goal, suggest **1–3 skills** (name, slash, one line why it fits). Use loose matches, not rigid rules. Examples:
    - stuck / don't know where to start → Beginner, Why, BIG
-   - frustrated / something bombed → Bad, Worst-critic
+   - frustrated / something bombed → Pain, Worst-critic
    - excited / something landed → Joy, Grateful
    - have a title or concept → Iterate, Hooks
    - topic too big / one mega-video → Scope Down

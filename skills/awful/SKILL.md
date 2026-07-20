@@ -39,7 +39,7 @@ Come up with AWFUL IDEAS. Videos that can't work. The premise is so bad.. nobody
 
 **Awful → awe-ful.** Bad idea that becomes awesome. Keep it awful on the page; the video earns the awe.
 
-Not `/bad` (personal harm inventory). This is **awful premises** — ideas that fail the "good idea" test and pass the curiosity test.
+Not `/pain` (personal harm inventory). This is **awful premises** — ideas that fail the "good idea" test and pass the curiosity test.
 
 ## Inputs
 
@@ -110,7 +110,7 @@ Do not stop early unless the user explicitly aborts (note `N/20 incomplete`). Ke
 
 ## Anti-patterns
 
-- Do not conflate with Bad (personal complaints / harm). This is awful *premises*, not bad *life events*
+- Do not conflate with Pain (personal complaints / harm). This is awful *premises*, not bad *life events*
 - Do not polish awful ideas into good ones mid-list. Keep them awful
 - Do not accept "good ideas" (everyone would have that) or "great ideas" (too good for the video to stand up)
 - Do not fill the list for the user unless they asked for starter list / I start. Prod, don't replace their taste
