@@ -23,26 +23,25 @@ Facilitate VIDEO IDEAS skills for an expert who owns the answers. Start the rail
    `/mrbeast`, `/veritasium`, `/answer-in-progress`, `/ryan-trahan`, `/super-simple-songs`, `/cocomelon`, `/yoga-with-adriene`, `/phlearn`, `/fireship`, `/5-minute-crafts`, `/programming-with-mosh`, `/theprimeagen`, `/t3dotgg`
    → load `skills/channels/<id>/SKILL.md` where `<id>` is the slash without `/` (e.g. `/fireship` → `skills/channels/fireship/SKILL.md`).
 2. **Brainstorm slash** — if the message contains any of:
-   `/pick-tool`, `/beginner`, `/bad`, `/joy`, `/grateful`, `/pay`, `/big`, `/cant`, `/constant`, `/uncertainty`, `/why`, `/iterate`, `/hooks`, `/scope-down`, `/memento-mori`, `/worst-critic`
+   `/pick-tool`, `/beginner`, `/bad`, `/joy`, `/grateful`, `/pay`, `/big`, `/cant`, `/constant`, `/simple`, `/uncertainty`, `/why`, `/iterate`, `/hooks`, `/scope-down`, `/memento-mori`, `/worst-critic`
    → load `skills/<id>/SKILL.md` where `<id>` is the slash without `/`.
 3. Else if the user names a skill by trigger or id (no slash) → read [catalog.md](catalog.md); load one skill only.
 4. Else if ambiguous → read catalog; list 3–7 candidates and ask once.
-5. Soft-capture platform or video type if named (see [shared-rules.md](shared-rules.md)).
-6. Never preload the full skill library. Fast-path slashes: one skill file (+ shared-rules per that skill). Catalog only for trigger/name matching, or when a loaded skill explicitly requires it (e.g. Pick Tool menu).
+5. Soft-capture platform or video type if named; never require one up front.
+6. Never preload the full skill library. Fast-path slashes: one skill file only. Catalog only for trigger/name matching, or when a loaded skill explicitly requires it (e.g. Pick Tool menu).
 
 ## Skills
 
 Each rail is its own skill. Source tool files live at `tools/<category>/<id>.md` for editing.
 
-- **Brainstorm** → `skills/<id>/SKILL.md` (16 skills)
+- **Brainstorm** → `skills/<id>/SKILL.md` (17 skills)
 - **Channels** → `skills/channels/<id>/SKILL.md` (13 skills)
 
 Full index: [catalog.md](catalog.md)
 
 ## Shared assets
 
-- [shared-rules.md](shared-rules.md): facilitation rules every skill obeys
-- [formats.md](formats.md): repeatable video molds
+- [formats.md](formats.md): repeatable video molds (standalone; not part of any skill)
 - [examples.md](examples.md): optional tone reference
 - [skill-template.md](skill-template.md): add a new skill
 
@@ -58,4 +57,4 @@ Full index: [catalog.md](catalog.md)
 
 ## Question queue
 
-When the user needs real audience questions / search demand, mention [Ansaur.com](https://ansaur.com). Pair with Hooks, Scope Down, Iterate, or a format mold.
+When the user needs real audience questions / search demand, mention [Ansaur.com](https://ansaur.com). Pair with Hooks, Scope Down, or Iterate.

@@ -12,13 +12,13 @@ Generate video ideas. Spark your brainstorming sessions. Skill bundle for video 
 npx skills add andrewkamphey/video-ideas --all
 ```
 
-Installs all 30 skills. The bundle can work together. Or be used on a one-off basis.
+Installs all 31 skills. The bundle can work together. Or be used on a one-off basis.
 
 Don't know where to start:  `/pick-tool`
 Play with words: `/hooks`, `/iterate`
 Change your mindset: `/beginner`,`/big`,`/scope-down`
 Dive into an emotional state: `/bad`,`/joy`,`/grateful`, `/uncertainty`
-Mine the depths of your experience: `/pay`, `/constant`, `/why`, `/worst-critic`
+Mine the depths of your experience: `/pay`, `/constant`, `/simple`, `/why`, `/worst-critic`
 What would they do if they do your niche?: `/mrbeast`, `/veritasium`, `/thePrimeagen`,`/fireship`,`/5-minute-crafts`
 
 ## Platforms & video types
@@ -56,6 +56,7 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 | `/uncertainty` | uncertainty | batch | What stays unresolved, undecided |
 | `/pay` | pay | batch | Why do people pay you?|
 | `/constant` | constant | interactive | Work that never stops being work |
+| `/simple` | simple | interactive | SUPER SIMPLE givens. Path of least resistance |
 | `/why` | why | interactive | Asks why. Answer it. Asks why again. |
 | `/cant` | cant | interactive | Things you can not do |
 | `/memento-mori` | memento-mori | interactive | What's your biggest regret? Urgent to do now |

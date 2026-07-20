@@ -44,10 +44,11 @@ User may also name a topic or platform.
    - limits and myths → CANT
    - what's still unresolved → Uncertainty
    - the work that never ends → Constant
+   - overthinking / blank / want the easiest path → Simple
    - what must be said before it's too late → Memento-mori
 5. Present a **compact menu** (Brainstorm + Channels). Each row: : name, slash, one-line summary. Mark your suggestions if helpful.
 6. Ask them to pick by name, slash, id, number, or confirm a suggestion.
-7. Read [shared-rules.md](../../shared-rules.md) and **only** the chosen skill from the catalog `path`.
+7. Read **only** the chosen skill from the catalog `path`.
 8. Run that skill. One skill per session unless the user asks to switch.
 
 ## Stop

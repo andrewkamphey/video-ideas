@@ -6,7 +6,7 @@ Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per se
 
 ## TOC
 
-- [Brainstorm](#brainstorm): 16 skills
+- [Brainstorm](#brainstorm): 17 skills
 - [Channels](#channels): 13 skills (slash commands)
 
 ---
@@ -128,6 +128,19 @@ platforms: [any]
 triggers: [constant, ongoing work, invisible load, still work]
 path: ../constant/SKILL.md
 summary: Interactive countdown to 20 constants. Recurring labor outsiders assume is done.
+```
+
+```yaml
+id: simple
+name: Simple
+category: brainstorm
+mode: interactive
+slash: /simple
+inputs: [concept]
+platforms: [any]
+triggers: [simple, keep it simple, givens, path of least resistance, don't overthink, automatic]
+path: ../simple/SKILL.md
+summary: Interactive countdown to 20 SUPER SIMPLE things. Givens, automatic habits, what anyone can do right now.
 ```
 
 ```yaml

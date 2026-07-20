@@ -29,7 +29,7 @@ One title or topic seed.
 
 ## Stop
 
-Variant list delivered. User picks which to develop (Hooks, Scope Down, formats optional).
+Variant list delivered. User picks which to develop (Hooks, Scope Down optional).
 
 ## Output
 

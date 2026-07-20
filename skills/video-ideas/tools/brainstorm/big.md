@@ -28,7 +28,7 @@ Topic and/or world of expertise (e.g. Sales → sales process, sales tools, sale
 
 ## Stop
 
-User has the pillar map. Hand off to Hooks / Iterate / Scope Down / formats if they want titles.
+User has the pillar map. Hand off to Hooks / Iterate / Scope Down if they want titles.
 
 ## Output
 
