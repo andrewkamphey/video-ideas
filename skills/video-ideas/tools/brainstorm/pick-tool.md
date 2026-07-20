@@ -39,6 +39,7 @@ User may also name a topic or platform.
    - excited / something landed → Joy, Grateful
    - have a title or concept → Iterate, Hooks
    - topic too big / one mega-video → Scope Down
+   - chasing good/great ideas / need wild premises → Awful
    - want a packaging style → a channel mimic
    - what actually pays → Pay
    - limits and myths → CANT

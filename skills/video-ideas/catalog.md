@@ -6,7 +6,7 @@ Full index of VIDEO IDEAS skills. Grouped by category. Load **one** skill per se
 
 ## TOC
 
-- [Brainstorm](#brainstorm): 17 skills
+- [Brainstorm](#brainstorm): 18 skills
 - [Channels](#channels): Channels to use
 
 ---
@@ -50,6 +50,19 @@ platforms: [any]
 triggers: [bad, radical acceptance, list the bad, complaints]
 path: ../bad/SKILL.md
 summary: List bad things bluntly. Acknowledgment, not obligatory triumph arcs.
+```
+
+```yaml
+id: awful
+name: Awful
+category: brainstorm
+mode: interactive
+slash: /awful
+inputs: [domain, expertise]
+platforms: [any]
+triggers: [awful, bad ideas, terrible ideas, couldn't happen, or would they, awe-ful]
+path: ../awful/SKILL.md
+summary: Countdown to 20 AWFUL video ideas. Terrible premises that become awe-ful.
 ```
 
 ```yaml

@@ -12,11 +12,11 @@ Generate video ideas. Spark your brainstorming sessions. Skill bundle for video 
 npx skills add andrewkamphey/video-ideas --all
 ```
 
-Installs all 17 skills. The bundle can work together. Or be used on a one-off basis.
+Installs all 18 skills. The bundle can work together. Or be used on a one-off basis.
 
 Don't know where to start:  `/pick-tool`
 Play with words: `/hooks`, `/iterate`
-Change your mindset: `/beginner`,`/big`,`/scope-down`
+Change your mindset: `/beginner`,`/big`,`/scope-down`,`/awful`
 Dive into an emotional state: `/bad`,`/joy`,`/grateful`, `/uncertainty`
 Mine the depths of your experience: `/pay`, `/constant`, `/simple`, `/why`, `/worst-critic`
 Channels to use: `/mrbeast`, `/veritasium`, `/thePrimeagen`,`/fireship`,`/5-minute-crafts`
@@ -51,6 +51,7 @@ YouTube, YouTube Shorts, TikTok, Instagram Stories, Facebook Reels, X, Threads, 
 | `/big` | big | batch | Zoom out. Big topics |
 | `/scope-down` | scope-down | batch | Chop up an idea into smaller pieces |
 | `/bad` | bad | interactive | Catalog your challenges |
+| `/awful` | awful | interactive | AWFUL ideas. Terrible premises that become awe-ful |
 | `/joy` | joy | interactive | Take account of what brings you JOY |
 | `/grateful` | grateful | interactive | Feel the gratefulness flow through you |
 | `/uncertainty` | uncertainty | batch | What stays unresolved, undecided |

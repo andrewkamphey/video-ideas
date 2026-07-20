@@ -23,7 +23,7 @@ Facilitate VIDEO IDEAS skills for an expert who owns the answers. Start the rail
    `/mrbeast`, `/veritasium`, `/answer-in-progress`, `/ryan-trahan`, `/super-simple-songs`, `/cocomelon`, `/yoga-with-adriene`, `/phlearn`, `/fireship`, `/5-minute-crafts`, `/programming-with-mosh`, `/theprimeagen`, `/t3dotgg`
    → load `skills/channels/<id>/SKILL.md` where `<id>` is the slash without `/` (e.g. `/fireship` → `skills/channels/fireship/SKILL.md`).
 2. **Brainstorm slash** — if the message contains any of:
-   `/pick-tool`, `/beginner`, `/bad`, `/joy`, `/grateful`, `/pay`, `/big`, `/cant`, `/constant`, `/simple`, `/uncertainty`, `/why`, `/iterate`, `/hooks`, `/scope-down`, `/memento-mori`, `/worst-critic`
+   `/pick-tool`, `/beginner`, `/bad`, `/awful`, `/joy`, `/grateful`, `/pay`, `/big`, `/cant`, `/constant`, `/simple`, `/uncertainty`, `/why`, `/iterate`, `/hooks`, `/scope-down`, `/memento-mori`, `/worst-critic`
    → load `skills/<id>/SKILL.md` where `<id>` is the slash without `/`.
 3. Else if the user names a skill by trigger or id (no slash) → read [catalog.md](catalog.md); load one skill only.
 4. Else if ambiguous → read catalog; list 3–7 candidates and ask once.
@@ -34,7 +34,7 @@ Facilitate VIDEO IDEAS skills for an expert who owns the answers. Start the rail
 
 Each rail is its own skill. Source tool files live at `tools/<category>/<id>.md` for editing.
 
-- **Brainstorm** → `skills/<id>/SKILL.md` (17 skills)
+- **Brainstorm** → `skills/<id>/SKILL.md` (18 skills)
 - **Channels to use** → `skills/channels/<id>/SKILL.md`
 
 Full index: [catalog.md](catalog.md)
