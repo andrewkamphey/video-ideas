@@ -108,13 +108,13 @@ summary: Interactive countdown to 20 real money flows. What people actually pay 
 id: big
 name: BIG
 category: brainstorm
-mode: batch
+mode: interactive
 slash: /big
 inputs: [topic]
 platforms: [any]
 triggers: [big, big ideas, pillars, searchable, domain map]
 path: ../big/SKILL.md
-summary: Dump 1–2 word searchable pillars for a topic or expertise world, not titles.
+summary: Interactive countdown to 20 searchable pillars. 1 word, or 2 word phrasesthat are big ideas in your topic or expertise, or experience.
 ```
 
 ```yaml

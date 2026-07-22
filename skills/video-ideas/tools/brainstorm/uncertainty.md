@@ -2,7 +2,7 @@
 id: uncertainty
 name: Uncertainty
 category: brainstorm
-mode: batch
+mode: interactive
 inputs: [concept]
 ---
 
@@ -20,19 +20,20 @@ Domain / identity-in-the-work. Optional: what outsiders treat as settled.
 
 ## Mode
 
-`batch`. List uncertainties; name false certainties; surface unknown-unknowns; optionally map each to a video idea.
+`interactive`. One turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod. Prod with clarifying and leading questions; eke out bits from what they already wrote.
 
 ## Steps
 
-1. Ask for domain / identity-in-the-work. What do outsiders treat as settled?
-2. List what stays uncertain, now and before you started.
-3. For each (or the strongest): name what people treat as certain (if applicable).
-4. Name the belief/state they don't know they don't know.
-5. Optional: video angle that puts the audience at that edge, without resolving the fog by default.
+1. **Frame:** 20 uncertainties. You count, state each clearly, prod gently when they stall. Do not resolve the fog.
+2. **Context:** Domain / identity-in-the-work. What do outsiders treat as settled?
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff**: per mode. Number items, state each uncertainty, show `N/20`.
+5. **Loop until 20**. Show full list + `N/20` each turn; prod when thin.
+6. **At 20:** Present flat numbered list. Optional second pass: video angle per item.
 
 ## Stop
 
-Uncertainty inventory captured. User picks edges to film.
+20 items captured. User picks edges to film.
 
 ## Output
 
@@ -48,3 +49,5 @@ Per item (keep tight):
 - Do not list mere opinions or hot takes; favor lived unresolvedness
 - Do not resolve the uncertainty for the viewer by default. Name it; the video can live in the fog
 - Do not confuse "I haven't learned yet" with true domain uncertainty unless you mark which
+- Do not fill the list for the user. Prod, don't invent their uncertainties
+- Do not dump the list in one turn

@@ -2,7 +2,7 @@
 id: pay
 name: Pay
 category: brainstorm
-mode: batch
+mode: interactive
 inputs: [concept]
 ---
 
@@ -22,26 +22,24 @@ Current work / business / freelance / employment reality.
 
 ## Mode
 
-`batch`. Inventory real money flows; separate "what they think they buy" vs "what the transaction actually is."
+`interactive`. One turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod. Prod with clarifying and leading questions; eke out bits from what they already wrote.
 
 ## Steps
 
-1. Ask for current work / business / freelance / employment reality.
-2. List specifics people pay you to do (concrete actions).
-3. List big things: large engagements / flagship offers.
-4. List what people *think* they pay you to do.
-5. List what they actually give money for.
-6. Name what you sell: time, creativity, experience, hours, energy. Which applies to each revenue path.
-7. List where money comes from. All revenue sources.
-8. Optional (only after dump): video ideas from gaps (perceived vs actual pay).
+1. **Frame:** 20 real money flows. You count, state each transaction plainly, prod gently when they stall. No aspirations.
+2. **Context:** Current work / business / freelance / employment reality.
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff**: per mode. Number items, state each flow, show `N/20`.
+5. **Loop until 20**. Show full list + `N/20` each turn; prod when thin.
+6. **At 20:** Present flat numbered list. Optional second pass: video ideas from gaps (perceived vs actual pay).
 
 ## Stop
 
-Transaction inventory is complete. User picks whether to map to video angles.
+20 items captured. User picks whether to map to video angles.
 
 ## Output
 
-Transaction inventory (sources + what is sold). Optional video ideas from gaps only after the dump.
+Numbered list of exactly 20 real money flows (sources + what is sold). Optional video ideas from gaps only after the dump.
 
 ## Anti-patterns
 
@@ -49,3 +47,5 @@ Transaction inventory (sources + what is sold). Optional video ideas from gaps o
 - Do not do brand marketing or ideal ICP wishes
 - Do not inflate. Only real transactions / real revenue paths
 - Do not confuse with BIG (searchable domain pillars). PAY is money that already moves
+- Do not fill the list for the user. Prod, don't invent their revenue
+- Do not dump the list in one turn

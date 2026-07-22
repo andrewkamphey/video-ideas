@@ -2,7 +2,7 @@
 id: big
 name: BIG
 category: brainstorm
-mode: batch
+mode: interactive
 inputs: [topic]
 ---
 
@@ -18,31 +18,30 @@ Topic and/or world of expertise (e.g. Sales → sales process, sales tools, sale
 
 ## Mode
 
-`batch`. Large list in one go; offer a second pass ("more / adjacent / jargon / beginner terms") if asked.
+`interactive`. One turn at a time toward **20 items**. Maintain a running numbered list and `N/20` countdown. Wait for the user before the next prod. Prod with clarifying and leading questions; eke out adjacent pillars from what they already listed.
 
 ## Steps
 
-1. Ask for topic and/or world of expertise.
-2. Dump a large flat list of 1–2 word pillars. Searchable, demand-y domain nouns.
-3. If asked: second pass with more, adjacent, jargon terms, or beginner-facing terms.
+1. **Frame:** 20 searchable pillars (1–2 words each). You count, keep them demand-y, prod gently when they stall.
+2. **Context:** Topic and/or world of expertise.
+3. **Who starts?** Ask unless already clear: you start, I start, or starter list.
+4. **Kickoff**: per mode. Number items, show `N/20`.
+5. **Loop until 20**. Show full list + `N/20` each turn; prod when thin.
+6. **At 20:** Present flat numbered list. Optional second pass: more / adjacent / jargon / beginner terms.
 
 ## Stop
 
-User has the pillar map. Hand off to Hooks / Iterate / Scope Down if they want titles.
+20 pillars captured. User picks whether to expand or hand off to Hooks / Iterate / Scope Down.
 
 ## Output
 
-Flat list of 1–2 word pillars (comma- or line-separated). Not full video titles. Not explanations unless asked.
+Flat numbered list of exactly 20 pillars (1–2 words each). Not full video titles. Not explanations unless asked.
 
 ## Anti-patterns
 
 - Do not write titles, hooks, or outlines (hand off to Hooks / Iterate / Scope Down)
 - Do not pad with long phrases (3+ words) unless the user asks
 - Do not explain each term by default
+- Do not dump a large list in one turn
 - Prefer demand-y, searchable domain nouns over clever coinages
-
-## Example (optional, tiny)
-
-Input: Expertise = Sales (process, tools, philosophy).
-
-Output: CRM, Cold, Leads, Revenue, Sell, Close, Clients, Sales Tools, Account Manager, Sales Representative, Sales Plan, Briefs, Department, Inside Sales, Outside Sales, B2B, B2C, Retail, Enterprise, Pipeline
+- Do not fill the list for the user. Prod, don't invent their pillars
